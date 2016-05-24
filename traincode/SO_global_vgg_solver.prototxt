@@ -1,0 +1,15 @@
+net: "SO_global_vgg_train_val.prototxt"
+test_iter: 100
+test_interval: 5000
+base_lr: 5e-7
+lr_policy: "step"
+gamma: 0.5
+stepsize: 5000
+display: 250
+max_iter: 300000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "models/SO_global"
+solver_mode: GPU
+device_id: 0

@@ -1,0 +1,1449 @@
+Iteration 0, Testing net (#0)    Test net output #0: loss = 2178.06 (* 1 = 2178.06 loss)
+Iteration 0, loss = 2179.22
+    Train net output #1: loss = 2179.22 (* 1 = 2179.22 loss)
+Iteration 250, loss = 733.672
+    Train net output #1: loss = 733.672 (* 1 = 733.672 loss)
+Iteration 500, loss = 745.346
+    Train net output #1: loss = 745.346 (* 1 = 745.346 loss)
+Iteration 750, loss = 736.5
+    Train net output #1: loss = 736.5 (* 1 = 736.5 loss)
+Iteration 1000, loss = 767.609
+    Train net output #1: loss = 767.609 (* 1 = 767.609 loss)
+Iteration 1250, loss = 750.774
+    Train net output #1: loss = 750.774 (* 1 = 750.774 loss)
+Iteration 1500, loss = 669.26
+    Train net output #1: loss = 669.26 (* 1 = 669.26 loss)
+Iteration 1750, loss = 748.936
+    Train net output #1: loss = 748.936 (* 1 = 748.936 loss)
+Iteration 2000, loss = 538.906
+    Train net output #1: loss = 538.906 (* 1 = 538.906 loss)
+Iteration 2250, loss = 587.703
+    Train net output #1: loss = 587.703 (* 1 = 587.703 loss)
+Iteration 2500, loss = 624.799
+    Train net output #1: loss = 624.799 (* 1 = 624.799 loss)
+Iteration 2750, loss = 711.191
+    Train net output #1: loss = 711.191 (* 1 = 711.191 loss)
+Iteration 3000, loss = 640.066
+    Train net output #1: loss = 640.066 (* 1 = 640.066 loss)
+Iteration 3250, loss = 599.553
+    Train net output #1: loss = 599.553 (* 1 = 599.553 loss)
+Iteration 3500, loss = 657.511
+    Train net output #1: loss = 657.511 (* 1 = 657.511 loss)
+Iteration 3750, loss = 636.994
+    Train net output #1: loss = 636.994 (* 1 = 636.994 loss)
+Iteration 4000, loss = 745.051
+    Train net output #1: loss = 745.051 (* 1 = 745.051 loss)
+Iteration 4250, loss = 645.287
+    Train net output #1: loss = 645.287 (* 1 = 645.287 loss)
+Iteration 4500, loss = 604.222
+    Train net output #1: loss = 604.222 (* 1 = 604.222 loss)
+Iteration 4750, loss = 711.488
+    Train net output #1: loss = 711.488 (* 1 = 711.488 loss)
+Iteration 5000, Testing net (#0)    Test net output #0: loss = 1308.87 (* 1 = 1308.87 loss)
+Iteration 5000, loss = 703.972
+    Train net output #1: loss = 703.972 (* 1 = 703.972 loss)
+Iteration 5250, loss = 525.298
+    Train net output #1: loss = 525.298 (* 1 = 525.298 loss)
+Iteration 5500, loss = 643.358
+    Train net output #1: loss = 643.358 (* 1 = 643.358 loss)
+Iteration 5750, loss = 533.124
+    Train net output #1: loss = 533.124 (* 1 = 533.124 loss)
+Iteration 6000, loss = 734.464
+    Train net output #1: loss = 734.464 (* 1 = 734.464 loss)
+Iteration 6250, loss = 743.553
+    Train net output #1: loss = 743.553 (* 1 = 743.553 loss)
+Iteration 6500, loss = 592.914
+    Train net output #1: loss = 592.914 (* 1 = 592.914 loss)
+Iteration 6750, loss = 624.124
+    Train net output #1: loss = 624.124 (* 1 = 624.124 loss)
+Iteration 7000, loss = 527.678
+    Train net output #1: loss = 527.678 (* 1 = 527.678 loss)
+Iteration 7250, loss = 509.611
+    Train net output #1: loss = 509.611 (* 1 = 509.611 loss)
+Iteration 7500, loss = 584.263
+    Train net output #1: loss = 584.263 (* 1 = 584.263 loss)
+Iteration 7750, loss = 641.591
+    Train net output #1: loss = 641.591 (* 1 = 641.591 loss)
+Iteration 8000, loss = 591.437
+    Train net output #1: loss = 591.437 (* 1 = 591.437 loss)
+Iteration 8250, loss = 602.624
+    Train net output #1: loss = 602.624 (* 1 = 602.624 loss)
+Iteration 8500, loss = 682.078
+    Train net output #1: loss = 682.078 (* 1 = 682.078 loss)
+Iteration 8750, loss = 605.151
+    Train net output #1: loss = 605.151 (* 1 = 605.151 loss)
+Iteration 9000, loss = 641.661
+    Train net output #1: loss = 641.661 (* 1 = 641.661 loss)
+Iteration 9250, loss = 528.938
+    Train net output #1: loss = 528.938 (* 1 = 528.938 loss)
+Iteration 9500, loss = 466.638
+    Train net output #1: loss = 466.638 (* 1 = 466.638 loss)
+Iteration 9750, loss = 589.107
+    Train net output #1: loss = 589.107 (* 1 = 589.107 loss)
+Iteration 10000, Testing net (#0)    Test net output #0: loss = 889.225 (* 1 = 889.225 loss)
+Iteration 10000, loss = 600.19
+    Train net output #1: loss = 600.19 (* 1 = 600.19 loss)
+Iteration 10250, loss = 672.691
+    Train net output #1: loss = 672.691 (* 1 = 672.691 loss)
+Iteration 10500, loss = 484.776
+    Train net output #1: loss = 484.776 (* 1 = 484.776 loss)
+Iteration 10750, loss = 650.995
+    Train net output #1: loss = 650.995 (* 1 = 650.995 loss)
+Iteration 11000, loss = 594.489
+    Train net output #1: loss = 594.489 (* 1 = 594.489 loss)
+Iteration 11250, loss = 617.321
+    Train net output #1: loss = 617.321 (* 1 = 617.321 loss)
+Iteration 11500, loss = 575.726
+    Train net output #1: loss = 575.726 (* 1 = 575.726 loss)
+Iteration 11750, loss = 602.084
+    Train net output #1: loss = 602.084 (* 1 = 602.084 loss)
+Iteration 12000, loss = 639.922
+    Train net output #1: loss = 639.922 (* 1 = 639.922 loss)
+Iteration 12250, loss = 525.901
+    Train net output #1: loss = 525.901 (* 1 = 525.901 loss)
+Iteration 12500, loss = 489.869
+    Train net output #1: loss = 489.869 (* 1 = 489.869 loss)
+Iteration 12750, loss = 465.196
+    Train net output #1: loss = 465.196 (* 1 = 465.196 loss)
+Iteration 13000, loss = 523.994
+    Train net output #1: loss = 523.994 (* 1 = 523.994 loss)
+Iteration 13250, loss = 614.895
+    Train net output #1: loss = 614.895 (* 1 = 614.895 loss)
+Iteration 13500, loss = 562.423
+    Train net output #1: loss = 562.423 (* 1 = 562.423 loss)
+Iteration 13750, loss = 526.845
+    Train net output #1: loss = 526.845 (* 1 = 526.845 loss)
+Iteration 14000, loss = 456.482
+    Train net output #1: loss = 456.482 (* 1 = 456.482 loss)
+Iteration 14250, loss = 571.492
+    Train net output #1: loss = 571.492 (* 1 = 571.492 loss)
+Iteration 14500, loss = 640.897
+    Train net output #1: loss = 640.897 (* 1 = 640.897 loss)
+Iteration 14750, loss = 343.226
+    Train net output #1: loss = 343.226 (* 1 = 343.226 loss)
+Iteration 15000, Testing net (#0)    Test net output #0: loss = 1374.8 (* 1 = 1374.8 loss)
+Iteration 15000, loss = 592.292
+    Train net output #1: loss = 592.292 (* 1 = 592.292 loss)
+Iteration 15250, loss = 505.733
+    Train net output #1: loss = 505.733 (* 1 = 505.733 loss)
+Iteration 15500, loss = 497.974
+    Train net output #1: loss = 497.974 (* 1 = 497.974 loss)
+Iteration 15750, loss = 603.013
+    Train net output #1: loss = 603.013 (* 1 = 603.013 loss)
+Iteration 16000, loss = 620.657
+    Train net output #1: loss = 620.657 (* 1 = 620.657 loss)
+Iteration 16250, loss = 486.338
+    Train net output #1: loss = 486.338 (* 1 = 486.338 loss)
+Iteration 16500, loss = 482.203
+    Train net output #1: loss = 482.203 (* 1 = 482.203 loss)
+Iteration 16750, loss = 512.839
+    Train net output #1: loss = 512.839 (* 1 = 512.839 loss)
+Iteration 17000, loss = 615.781
+    Train net output #1: loss = 615.781 (* 1 = 615.781 loss)
+Iteration 17250, loss = 483.477
+    Train net output #1: loss = 483.477 (* 1 = 483.477 loss)
+Iteration 17500, loss = 588.132
+    Train net output #1: loss = 588.132 (* 1 = 588.132 loss)
+Iteration 17750, loss = 501.554
+    Train net output #1: loss = 501.554 (* 1 = 501.554 loss)
+Iteration 18000, loss = 725.255
+    Train net output #1: loss = 725.255 (* 1 = 725.255 loss)
+Iteration 18250, loss = 512.179
+    Train net output #1: loss = 512.179 (* 1 = 512.179 loss)
+Iteration 18500, loss = 532.389
+    Train net output #1: loss = 532.389 (* 1 = 532.389 loss)
+Iteration 18750, loss = 670.041
+    Train net output #1: loss = 670.041 (* 1 = 670.041 loss)
+Iteration 19000, loss = 487.591
+    Train net output #1: loss = 487.591 (* 1 = 487.591 loss)
+Iteration 19250, loss = 583.726
+    Train net output #1: loss = 583.726 (* 1 = 583.726 loss)
+Iteration 19500, loss = 590.756
+    Train net output #1: loss = 590.756 (* 1 = 590.756 loss)
+Iteration 19750, loss = 595.242
+    Train net output #1: loss = 595.242 (* 1 = 595.242 loss)
+Iteration 20000, Testing net (#0)    Test net output #0: loss = 900.672 (* 1 = 900.672 loss)
+Iteration 20000, loss = 651.554
+    Train net output #1: loss = 651.554 (* 1 = 651.554 loss)
+Iteration 20250, loss = 559.15
+    Train net output #1: loss = 559.15 (* 1 = 559.15 loss)
+Iteration 20500, loss = 504.601
+    Train net output #1: loss = 504.601 (* 1 = 504.601 loss)
+Iteration 20750, loss = 491.97
+    Train net output #1: loss = 491.97 (* 1 = 491.97 loss)
+Iteration 21000, loss = 469.937
+    Train net output #1: loss = 469.937 (* 1 = 469.937 loss)
+Iteration 21250, loss = 698.437
+    Train net output #1: loss = 698.437 (* 1 = 698.437 loss)
+Iteration 21500, loss = 524.035
+    Train net output #1: loss = 524.035 (* 1 = 524.035 loss)
+Iteration 21750, loss = 465.343
+    Train net output #1: loss = 465.343 (* 1 = 465.343 loss)
+Iteration 22000, loss = 562.405
+    Train net output #1: loss = 562.405 (* 1 = 562.405 loss)
+Iteration 22250, loss = 476.178
+    Train net output #1: loss = 476.178 (* 1 = 476.178 loss)
+Iteration 22500, loss = 536.287
+    Train net output #1: loss = 536.287 (* 1 = 536.287 loss)
+Iteration 22750, loss = 635.997
+    Train net output #1: loss = 635.997 (* 1 = 635.997 loss)
+Iteration 23000, loss = 457.785
+    Train net output #1: loss = 457.785 (* 1 = 457.785 loss)
+Iteration 23250, loss = 568.622
+    Train net output #1: loss = 568.622 (* 1 = 568.622 loss)
+Iteration 23500, loss = 586.596
+    Train net output #1: loss = 586.596 (* 1 = 586.596 loss)
+Iteration 23750, loss = 604.661
+    Train net output #1: loss = 604.661 (* 1 = 604.661 loss)
+Iteration 24000, loss = 621.223
+    Train net output #1: loss = 621.223 (* 1 = 621.223 loss)
+Iteration 24250, loss = 580.164
+    Train net output #1: loss = 580.164 (* 1 = 580.164 loss)
+Iteration 24500, loss = 562.798
+    Train net output #1: loss = 562.798 (* 1 = 562.798 loss)
+Iteration 24750, loss = 572.093
+    Train net output #1: loss = 572.093 (* 1 = 572.093 loss)
+Iteration 25000, Testing net (#0)    Test net output #0: loss = 1364.21 (* 1 = 1364.21 loss)
+Iteration 25000, loss = 540.881
+    Train net output #1: loss = 540.881 (* 1 = 540.881 loss)
+Iteration 25250, loss = 635.676
+    Train net output #1: loss = 635.676 (* 1 = 635.676 loss)
+Iteration 25500, loss = 398.068
+    Train net output #1: loss = 398.068 (* 1 = 398.068 loss)
+Iteration 25750, loss = 542.189
+    Train net output #1: loss = 542.189 (* 1 = 542.189 loss)
+Iteration 26000, loss = 378.171
+    Train net output #1: loss = 378.171 (* 1 = 378.171 loss)
+Iteration 26250, loss = 659.41
+    Train net output #1: loss = 659.41 (* 1 = 659.41 loss)
+Iteration 26500, loss = 571.365
+    Train net output #1: loss = 571.365 (* 1 = 571.365 loss)
+Iteration 26750, loss = 475.211
+    Train net output #1: loss = 475.211 (* 1 = 475.211 loss)
+Iteration 27000, loss = 499.045
+    Train net output #1: loss = 499.045 (* 1 = 499.045 loss)
+Iteration 27250, loss = 559.08
+    Train net output #1: loss = 559.08 (* 1 = 559.08 loss)
+Iteration 27500, loss = 605.467
+    Train net output #1: loss = 605.467 (* 1 = 605.467 loss)
+Iteration 27750, loss = 458.901
+    Train net output #1: loss = 458.901 (* 1 = 458.901 loss)
+Iteration 28000, loss = 570.638
+    Train net output #1: loss = 570.638 (* 1 = 570.638 loss)
+Iteration 28250, loss = 511.9
+    Train net output #1: loss = 511.9 (* 1 = 511.9 loss)
+Iteration 28500, loss = 453.305
+    Train net output #1: loss = 453.305 (* 1 = 453.305 loss)
+Iteration 28750, loss = 499.723
+    Train net output #1: loss = 499.723 (* 1 = 499.723 loss)
+Iteration 29000, loss = 577.7
+    Train net output #1: loss = 577.7 (* 1 = 577.7 loss)
+Iteration 29250, loss = 513.602
+    Train net output #1: loss = 513.602 (* 1 = 513.602 loss)
+Iteration 29500, loss = 560.585
+    Train net output #1: loss = 560.585 (* 1 = 560.585 loss)
+Iteration 29750, loss = 534.486
+    Train net output #1: loss = 534.486 (* 1 = 534.486 loss)
+Iteration 30000, loss = 538.713
+Iteration 30000, Testing net (#0)    Test net output #0: loss = 903.271 (* 1 = 903.271 loss)
+Iteration 0, Testing net (#0)    Test net output #0: loss = 2179.96 (* 1 = 2179.96 loss)
+Iteration 0, Testing net (#0)    Test net output #0: loss = 2178.25 (* 1 = 2178.25 loss)
+Iteration 0, loss = 2179.66
+    Train net output #1: loss = 2179.66 (* 1 = 2179.66 loss)
+Iteration 0, Testing net (#0)    Test net output #0: loss = 2178.18 (* 1 = 2178.18 loss)
+Iteration 0, loss = 2178.62
+    Train net output #1: loss = 2178.62 (* 1 = 2178.62 loss)
+Iteration 0, Testing net (#0)    Test net output #0: loss = 2179.23 (* 1 = 2179.23 loss)
+Iteration 0, loss = 2177.71
+    Train net output #1: loss = 2177.71 (* 1 = 2177.71 loss)
+Iteration 250, loss = 767.233
+    Train net output #1: loss = 767.233 (* 1 = 767.233 loss)
+Iteration 500, loss = 752.552
+    Train net output #1: loss = 752.552 (* 1 = 752.552 loss)
+Iteration 750, loss = 865.83
+    Train net output #1: loss = 865.83 (* 1 = 865.83 loss)
+Iteration 1000, loss = 796.074
+    Train net output #1: loss = 796.074 (* 1 = 796.074 loss)
+Iteration 1250, loss = 882.531
+    Train net output #1: loss = 882.531 (* 1 = 882.531 loss)
+Iteration 1500, loss = 907.906
+    Train net output #1: loss = 907.906 (* 1 = 907.906 loss)
+Iteration 1750, loss = 675.81
+    Train net output #1: loss = 675.81 (* 1 = 675.81 loss)
+Iteration 2000, loss = 587.939
+    Train net output #1: loss = 587.939 (* 1 = 587.939 loss)
+Iteration 2250, loss = 656.039
+    Train net output #1: loss = 656.039 (* 1 = 656.039 loss)
+Iteration 2500, loss = 523.567
+    Train net output #1: loss = 523.567 (* 1 = 523.567 loss)
+Iteration 2750, loss = 585.539
+    Train net output #1: loss = 585.539 (* 1 = 585.539 loss)
+Iteration 3000, loss = 738.372
+    Train net output #1: loss = 738.372 (* 1 = 738.372 loss)
+Iteration 3250, loss = 465.161
+    Train net output #1: loss = 465.161 (* 1 = 465.161 loss)
+Iteration 3500, loss = 520.152
+    Train net output #1: loss = 520.152 (* 1 = 520.152 loss)
+Iteration 3750, loss = 979.487
+    Train net output #1: loss = 979.487 (* 1 = 979.487 loss)
+Iteration 4000, loss = 516.11
+    Train net output #1: loss = 516.11 (* 1 = 516.11 loss)
+Iteration 4250, loss = 484.923
+    Train net output #1: loss = 484.922 (* 1 = 484.922 loss)
+Iteration 4500, loss = 482.376
+    Train net output #1: loss = 482.376 (* 1 = 482.376 loss)
+Iteration 4750, loss = 616.612
+    Train net output #1: loss = 616.612 (* 1 = 616.612 loss)
+Iteration 5000, Testing net (#0)    Test net output #0: loss = 1251.98 (* 1 = 1251.98 loss)
+Iteration 5000, loss = 677.626
+    Train net output #1: loss = 677.626 (* 1 = 677.626 loss)
+Iteration 5250, loss = 659.934
+    Train net output #1: loss = 659.934 (* 1 = 659.934 loss)
+Iteration 5500, loss = 781.795
+    Train net output #1: loss = 781.794 (* 1 = 781.794 loss)
+Iteration 5750, loss = 605.351
+    Train net output #1: loss = 605.351 (* 1 = 605.351 loss)
+Iteration 6000, loss = 433.965
+    Train net output #1: loss = 433.965 (* 1 = 433.965 loss)
+Iteration 6250, loss = 669.939
+    Train net output #1: loss = 669.939 (* 1 = 669.939 loss)
+Iteration 6500, loss = 467.977
+    Train net output #1: loss = 467.977 (* 1 = 467.977 loss)
+Iteration 6750, loss = 395.483
+    Train net output #1: loss = 395.483 (* 1 = 395.483 loss)
+Iteration 7000, loss = 568.603
+    Train net output #1: loss = 568.602 (* 1 = 568.602 loss)
+Iteration 7250, loss = 825.14
+    Train net output #1: loss = 825.14 (* 1 = 825.14 loss)
+Iteration 7500, loss = 618.387
+    Train net output #1: loss = 618.386 (* 1 = 618.386 loss)
+Iteration 7750, loss = 847.152
+    Train net output #1: loss = 847.151 (* 1 = 847.151 loss)
+Iteration 8000, loss = 476.635
+    Train net output #1: loss = 476.635 (* 1 = 476.635 loss)
+Iteration 8250, loss = 698.52
+    Train net output #1: loss = 698.52 (* 1 = 698.52 loss)
+Iteration 8500, loss = 793.356
+    Train net output #1: loss = 793.356 (* 1 = 793.356 loss)
+Iteration 8750, loss = 761.644
+    Train net output #1: loss = 761.644 (* 1 = 761.644 loss)
+Iteration 9000, loss = 502.911
+    Train net output #1: loss = 502.911 (* 1 = 502.911 loss)
+Iteration 9250, loss = 608.818
+    Train net output #1: loss = 608.817 (* 1 = 608.817 loss)
+Iteration 9500, loss = 917.974
+    Train net output #1: loss = 917.974 (* 1 = 917.974 loss)
+Iteration 9750, loss = 546.44
+    Train net output #1: loss = 546.439 (* 1 = 546.439 loss)
+Iteration 10000, Testing net (#0)    Test net output #0: loss = 833.625 (* 1 = 833.625 loss)
+Iteration 10000, loss = 578.048
+    Train net output #1: loss = 578.047 (* 1 = 578.047 loss)
+Iteration 10250, loss = 665.417
+    Train net output #1: loss = 665.417 (* 1 = 665.417 loss)
+Iteration 10500, loss = 445.584
+    Train net output #1: loss = 445.584 (* 1 = 445.584 loss)
+Iteration 10750, loss = 719.158
+    Train net output #1: loss = 719.158 (* 1 = 719.158 loss)
+Iteration 11000, loss = 915.937
+    Train net output #1: loss = 915.937 (* 1 = 915.937 loss)
+Iteration 11250, loss = 599.216
+    Train net output #1: loss = 599.216 (* 1 = 599.216 loss)
+Iteration 11500, loss = 778.702
+    Train net output #1: loss = 778.702 (* 1 = 778.702 loss)
+Iteration 11750, loss = 609.598
+    Train net output #1: loss = 609.598 (* 1 = 609.598 loss)
+Iteration 12000, loss = 463.585
+    Train net output #1: loss = 463.585 (* 1 = 463.585 loss)
+Iteration 12250, loss = 608.369
+    Train net output #1: loss = 608.369 (* 1 = 608.369 loss)
+Iteration 12500, loss = 516.236
+    Train net output #1: loss = 516.236 (* 1 = 516.236 loss)
+Iteration 12750, loss = 390.267
+    Train net output #1: loss = 390.266 (* 1 = 390.266 loss)
+Iteration 13000, loss = 813.659
+    Train net output #1: loss = 813.659 (* 1 = 813.659 loss)
+Iteration 13250, loss = 709.4
+    Train net output #1: loss = 709.4 (* 1 = 709.4 loss)
+Iteration 13500, loss = 692.12
+    Train net output #1: loss = 692.119 (* 1 = 692.119 loss)
+Iteration 13750, loss = 939.292
+    Train net output #1: loss = 939.291 (* 1 = 939.291 loss)
+Iteration 14000, loss = 667.62
+    Train net output #1: loss = 667.619 (* 1 = 667.619 loss)
+Iteration 14250, loss = 681.991
+    Train net output #1: loss = 681.99 (* 1 = 681.99 loss)
+Iteration 14500, loss = 610.899
+    Train net output #1: loss = 610.899 (* 1 = 610.899 loss)
+Iteration 14750, loss = 713.563
+    Train net output #1: loss = 713.563 (* 1 = 713.563 loss)
+Iteration 15000, Testing net (#0)    Test net output #0: loss = 1265.59 (* 1 = 1265.59 loss)
+Iteration 15000, loss = 637.163
+    Train net output #1: loss = 637.163 (* 1 = 637.163 loss)
+Iteration 15250, loss = 578.71
+    Train net output #1: loss = 578.709 (* 1 = 578.709 loss)
+Iteration 15500, loss = 737.321
+    Train net output #1: loss = 737.321 (* 1 = 737.321 loss)
+Iteration 15750, loss = 596.16
+    Train net output #1: loss = 596.159 (* 1 = 596.159 loss)
+Iteration 16000, loss = 556.623
+    Train net output #1: loss = 556.622 (* 1 = 556.622 loss)
+Iteration 16250, loss = 643.745
+    Train net output #1: loss = 643.745 (* 1 = 643.745 loss)
+Iteration 16500, loss = 802.163
+    Train net output #1: loss = 802.163 (* 1 = 802.163 loss)
+Iteration 16750, loss = 641.946
+    Train net output #1: loss = 641.946 (* 1 = 641.946 loss)
+Iteration 17000, loss = 647.027
+    Train net output #1: loss = 647.026 (* 1 = 647.026 loss)
+Iteration 17250, loss = 524.647
+    Train net output #1: loss = 524.646 (* 1 = 524.646 loss)
+Iteration 17500, loss = 465.365
+    Train net output #1: loss = 465.364 (* 1 = 465.364 loss)
+Iteration 17750, loss = 807.09
+    Train net output #1: loss = 807.089 (* 1 = 807.089 loss)
+Iteration 18000, loss = 715.815
+    Train net output #1: loss = 715.815 (* 1 = 715.815 loss)
+Iteration 18250, loss = 461.418
+    Train net output #1: loss = 461.418 (* 1 = 461.418 loss)
+Iteration 18500, loss = 651.425
+    Train net output #1: loss = 651.424 (* 1 = 651.424 loss)
+Iteration 18750, loss = 889.361
+    Train net output #1: loss = 889.361 (* 1 = 889.361 loss)
+Iteration 19000, loss = 821.739
+    Train net output #1: loss = 821.739 (* 1 = 821.739 loss)
+Iteration 19250, loss = 513.322
+    Train net output #1: loss = 513.322 (* 1 = 513.322 loss)
+Iteration 19500, loss = 522.171
+    Train net output #1: loss = 522.171 (* 1 = 522.171 loss)
+Iteration 19750, loss = 658.767
+    Train net output #1: loss = 658.766 (* 1 = 658.766 loss)
+Iteration 20000, Testing net (#0)    Test net output #0: loss = 843.01 (* 1 = 843.01 loss)
+Iteration 20000, loss = 642.802
+    Train net output #1: loss = 642.802 (* 1 = 642.802 loss)
+Iteration 20250, loss = 540.68
+    Train net output #1: loss = 540.68 (* 1 = 540.68 loss)
+Iteration 20500, loss = 622.461
+    Train net output #1: loss = 622.461 (* 1 = 622.461 loss)
+Iteration 20750, loss = 581.929
+    Train net output #1: loss = 581.929 (* 1 = 581.929 loss)
+Iteration 21000, loss = 718.827
+    Train net output #1: loss = 718.827 (* 1 = 718.827 loss)
+Iteration 21250, loss = 612.92
+    Train net output #1: loss = 612.92 (* 1 = 612.92 loss)
+Iteration 21500, loss = 395.962
+    Train net output #1: loss = 395.962 (* 1 = 395.962 loss)
+Iteration 21750, loss = 786.112
+    Train net output #1: loss = 786.112 (* 1 = 786.112 loss)
+Iteration 22000, loss = 719.479
+    Train net output #1: loss = 719.479 (* 1 = 719.479 loss)
+Iteration 22250, loss = 664.138
+    Train net output #1: loss = 664.138 (* 1 = 664.138 loss)
+Iteration 22500, loss = 620.235
+    Train net output #1: loss = 620.235 (* 1 = 620.235 loss)
+Iteration 22750, loss = 719.228
+    Train net output #1: loss = 719.228 (* 1 = 719.228 loss)
+Iteration 23000, loss = 394.941
+    Train net output #1: loss = 394.94 (* 1 = 394.94 loss)
+Iteration 23250, loss = 804.918
+    Train net output #1: loss = 804.917 (* 1 = 804.917 loss)
+Iteration 23500, loss = 505.849
+    Train net output #1: loss = 505.849 (* 1 = 505.849 loss)
+Iteration 23750, loss = 593.162
+    Train net output #1: loss = 593.162 (* 1 = 593.162 loss)
+Iteration 24000, loss = 528.243
+    Train net output #1: loss = 528.242 (* 1 = 528.242 loss)
+Iteration 24250, loss = 537.388
+    Train net output #1: loss = 537.388 (* 1 = 537.388 loss)
+Iteration 24500, loss = 485.332
+    Train net output #1: loss = 485.332 (* 1 = 485.332 loss)
+Iteration 24750, loss = 766.42
+    Train net output #1: loss = 766.42 (* 1 = 766.42 loss)
+Iteration 25000, Testing net (#0)    Test net output #0: loss = 1289.14 (* 1 = 1289.14 loss)
+Iteration 25000, loss = 880.786
+    Train net output #1: loss = 880.786 (* 1 = 880.786 loss)
+Iteration 25250, loss = 666.378
+    Train net output #1: loss = 666.378 (* 1 = 666.378 loss)
+Iteration 25500, loss = 506.992
+    Train net output #1: loss = 506.992 (* 1 = 506.992 loss)
+Iteration 25750, loss = 442.752
+    Train net output #1: loss = 442.752 (* 1 = 442.752 loss)
+Iteration 26000, loss = 677.708
+    Train net output #1: loss = 677.708 (* 1 = 677.708 loss)
+Iteration 26250, loss = 468.952
+    Train net output #1: loss = 468.951 (* 1 = 468.951 loss)
+Iteration 26500, loss = 375.471
+    Train net output #1: loss = 375.47 (* 1 = 375.47 loss)
+Iteration 26750, loss = 585.729
+    Train net output #1: loss = 585.729 (* 1 = 585.729 loss)
+Iteration 27000, loss = 555.926
+    Train net output #1: loss = 555.925 (* 1 = 555.925 loss)
+Iteration 27250, loss = 548.863
+    Train net output #1: loss = 548.863 (* 1 = 548.863 loss)
+Iteration 27500, loss = 561.639
+    Train net output #1: loss = 561.639 (* 1 = 561.639 loss)
+Iteration 27750, loss = 767.684
+    Train net output #1: loss = 767.684 (* 1 = 767.684 loss)
+Iteration 28000, loss = 367.652
+    Train net output #1: loss = 367.652 (* 1 = 367.652 loss)
+Iteration 28250, loss = 763.811
+    Train net output #1: loss = 763.811 (* 1 = 763.811 loss)
+Iteration 28500, loss = 445.012
+    Train net output #1: loss = 445.012 (* 1 = 445.012 loss)
+Iteration 28750, loss = 671.952
+    Train net output #1: loss = 671.952 (* 1 = 671.952 loss)
+Iteration 29000, loss = 504.385
+    Train net output #1: loss = 504.385 (* 1 = 504.385 loss)
+Iteration 29250, loss = 525.807
+    Train net output #1: loss = 525.807 (* 1 = 525.807 loss)
+Iteration 29500, loss = 394.776
+    Train net output #1: loss = 394.775 (* 1 = 394.775 loss)
+Iteration 29750, loss = 744.703
+    Train net output #1: loss = 744.703 (* 1 = 744.703 loss)
+Iteration 30000, Testing net (#0)    Test net output #0: loss = 842.393 (* 1 = 842.393 loss)
+Iteration 30000, loss = 389.672
+    Train net output #1: loss = 389.672 (* 1 = 389.672 loss)
+Iteration 30250, loss = 367.014
+    Train net output #1: loss = 367.014 (* 1 = 367.014 loss)
+Iteration 30500, loss = 734.796
+    Train net output #1: loss = 734.796 (* 1 = 734.796 loss)
+Iteration 30750, loss = 497.894
+    Train net output #1: loss = 497.894 (* 1 = 497.894 loss)
+Iteration 31000, loss = 484.64
+    Train net output #1: loss = 484.639 (* 1 = 484.639 loss)
+Iteration 31250, loss = 537.182
+    Train net output #1: loss = 537.181 (* 1 = 537.181 loss)
+Iteration 31500, loss = 553.855
+    Train net output #1: loss = 553.855 (* 1 = 553.855 loss)
+Iteration 31750, loss = 732.764
+    Train net output #1: loss = 732.764 (* 1 = 732.764 loss)
+Iteration 32000, loss = 541.568
+    Train net output #1: loss = 541.568 (* 1 = 541.568 loss)
+Iteration 32250, loss = 495.36
+    Train net output #1: loss = 495.36 (* 1 = 495.36 loss)
+Iteration 32500, loss = 864.875
+    Train net output #1: loss = 864.875 (* 1 = 864.875 loss)
+Iteration 32750, loss = 653.728
+    Train net output #1: loss = 653.728 (* 1 = 653.728 loss)
+Iteration 33000, loss = 453.338
+    Train net output #1: loss = 453.338 (* 1 = 453.338 loss)
+Iteration 33250, loss = 546.168
+    Train net output #1: loss = 546.168 (* 1 = 546.168 loss)
+Iteration 33500, loss = 472.377
+    Train net output #1: loss = 472.377 (* 1 = 472.377 loss)
+Iteration 33750, loss = 835.803
+    Train net output #1: loss = 835.803 (* 1 = 835.803 loss)
+Iteration 34000, loss = 865.432
+    Train net output #1: loss = 865.431 (* 1 = 865.431 loss)
+Iteration 34250, loss = 512.226
+    Train net output #1: loss = 512.226 (* 1 = 512.226 loss)
+Iteration 34500, loss = 672.105
+    Train net output #1: loss = 672.104 (* 1 = 672.104 loss)
+Iteration 34750, loss = 509.405
+    Train net output #1: loss = 509.405 (* 1 = 509.405 loss)
+Iteration 35000, Testing net (#0)    Test net output #0: loss = 1290.69 (* 1 = 1290.69 loss)
+Iteration 35000, loss = 567.541
+    Train net output #1: loss = 567.54 (* 1 = 567.54 loss)
+Iteration 35250, loss = 511.44
+    Train net output #1: loss = 511.44 (* 1 = 511.44 loss)
+Iteration 35500, loss = 333.18
+    Train net output #1: loss = 333.179 (* 1 = 333.179 loss)
+Iteration 35750, loss = 476.199
+    Train net output #1: loss = 476.198 (* 1 = 476.198 loss)
+Iteration 36000, loss = 699.789
+    Train net output #1: loss = 699.789 (* 1 = 699.789 loss)
+Iteration 36250, loss = 851.009
+    Train net output #1: loss = 851.008 (* 1 = 851.008 loss)
+Iteration 36500, loss = 722.777
+    Train net output #1: loss = 722.776 (* 1 = 722.776 loss)
+Iteration 36750, loss = 665.657
+    Train net output #1: loss = 665.656 (* 1 = 665.656 loss)
+Iteration 37000, loss = 442.14
+    Train net output #1: loss = 442.14 (* 1 = 442.14 loss)
+Iteration 37250, loss = 409.537
+    Train net output #1: loss = 409.537 (* 1 = 409.537 loss)
+Iteration 37500, loss = 537.014
+    Train net output #1: loss = 537.013 (* 1 = 537.013 loss)
+Iteration 37750, loss = 737.342
+    Train net output #1: loss = 737.341 (* 1 = 737.341 loss)
+Iteration 38000, loss = 612.13
+    Train net output #1: loss = 612.13 (* 1 = 612.13 loss)
+Iteration 38250, loss = 565.06
+    Train net output #1: loss = 565.06 (* 1 = 565.06 loss)
+Iteration 38500, loss = 674.728
+    Train net output #1: loss = 674.728 (* 1 = 674.728 loss)
+Iteration 38750, loss = 828.039
+    Train net output #1: loss = 828.039 (* 1 = 828.039 loss)
+Iteration 39000, loss = 780.308
+    Train net output #1: loss = 780.308 (* 1 = 780.308 loss)
+Iteration 39250, loss = 477.567
+    Train net output #1: loss = 477.567 (* 1 = 477.567 loss)
+Iteration 39500, loss = 399.577
+    Train net output #1: loss = 399.577 (* 1 = 399.577 loss)
+Iteration 39750, loss = 506.299
+    Train net output #1: loss = 506.299 (* 1 = 506.299 loss)
+Iteration 40000, Testing net (#0)    Test net output #0: loss = 839.284 (* 1 = 839.284 loss)
+Iteration 40000, loss = 618.716
+    Train net output #1: loss = 618.716 (* 1 = 618.716 loss)
+Iteration 40250, loss = 602.37
+    Train net output #1: loss = 602.37 (* 1 = 602.37 loss)
+Iteration 40500, loss = 645.277
+    Train net output #1: loss = 645.277 (* 1 = 645.277 loss)
+Iteration 40750, loss = 415.264
+    Train net output #1: loss = 415.264 (* 1 = 415.264 loss)
+Iteration 41000, loss = 737.324
+    Train net output #1: loss = 737.324 (* 1 = 737.324 loss)
+Iteration 41250, loss = 315.996
+    Train net output #1: loss = 315.996 (* 1 = 315.996 loss)
+Iteration 41500, loss = 582.91
+    Train net output #1: loss = 582.91 (* 1 = 582.91 loss)
+Iteration 41750, loss = 709.503
+    Train net output #1: loss = 709.503 (* 1 = 709.503 loss)
+Iteration 42000, loss = 375.426
+    Train net output #1: loss = 375.425 (* 1 = 375.425 loss)
+Iteration 42250, loss = 808.462
+    Train net output #1: loss = 808.462 (* 1 = 808.462 loss)
+Iteration 42500, loss = 558.574
+    Train net output #1: loss = 558.574 (* 1 = 558.574 loss)
+Iteration 42750, loss = 560.871
+    Train net output #1: loss = 560.87 (* 1 = 560.87 loss)
+Iteration 43000, loss = 753.255
+    Train net output #1: loss = 753.255 (* 1 = 753.255 loss)
+Iteration 43250, loss = 467.848
+    Train net output #1: loss = 467.848 (* 1 = 467.848 loss)
+Iteration 43500, loss = 639.985
+    Train net output #1: loss = 639.985 (* 1 = 639.985 loss)
+Iteration 43750, loss = 655.414
+    Train net output #1: loss = 655.414 (* 1 = 655.414 loss)
+Iteration 44000, loss = 613.08
+    Train net output #1: loss = 613.079 (* 1 = 613.079 loss)
+Iteration 44250, loss = 400.311
+    Train net output #1: loss = 400.311 (* 1 = 400.311 loss)
+Iteration 44500, loss = 710.652
+    Train net output #1: loss = 710.652 (* 1 = 710.652 loss)
+Iteration 44750, loss = 684.564
+    Train net output #1: loss = 684.564 (* 1 = 684.564 loss)
+Iteration 45000, Testing net (#0)    Test net output #0: loss = 1295.87 (* 1 = 1295.87 loss)
+Iteration 45000, loss = 696.904
+    Train net output #1: loss = 696.903 (* 1 = 696.903 loss)
+Iteration 45250, loss = 800.089
+    Train net output #1: loss = 800.089 (* 1 = 800.089 loss)
+Iteration 45500, loss = 481.479
+    Train net output #1: loss = 481.478 (* 1 = 481.478 loss)
+Iteration 45750, loss = 577.25
+    Train net output #1: loss = 577.25 (* 1 = 577.25 loss)
+Iteration 46000, loss = 501.137
+    Train net output #1: loss = 501.137 (* 1 = 501.137 loss)
+Iteration 46250, loss = 643.57
+    Train net output #1: loss = 643.569 (* 1 = 643.569 loss)
+Iteration 46500, loss = 827.027
+    Train net output #1: loss = 827.026 (* 1 = 827.026 loss)
+Iteration 46750, loss = 654.867
+    Train net output #1: loss = 654.867 (* 1 = 654.867 loss)
+Iteration 47000, loss = 836.394
+    Train net output #1: loss = 836.393 (* 1 = 836.393 loss)
+Iteration 47250, loss = 744.365
+    Train net output #1: loss = 744.365 (* 1 = 744.365 loss)
+Iteration 47500, loss = 609.776
+    Train net output #1: loss = 609.776 (* 1 = 609.776 loss)
+Iteration 47750, loss = 712.305
+    Train net output #1: loss = 712.305 (* 1 = 712.305 loss)
+Iteration 48000, loss = 474.909
+    Train net output #1: loss = 474.909 (* 1 = 474.909 loss)
+Iteration 48250, loss = 497.424
+    Train net output #1: loss = 497.424 (* 1 = 497.424 loss)
+Iteration 48500, loss = 633.809
+    Train net output #1: loss = 633.809 (* 1 = 633.809 loss)
+Iteration 48750, loss = 405.359
+    Train net output #1: loss = 405.359 (* 1 = 405.359 loss)
+Iteration 49000, loss = 709.452
+    Train net output #1: loss = 709.452 (* 1 = 709.452 loss)
+Iteration 49250, loss = 699.884
+    Train net output #1: loss = 699.883 (* 1 = 699.883 loss)
+Iteration 49500, loss = 513.442
+    Train net output #1: loss = 513.442 (* 1 = 513.442 loss)
+Iteration 49750, loss = 713.69
+    Train net output #1: loss = 713.689 (* 1 = 713.689 loss)
+Iteration 50000, Testing net (#0)    Test net output #0: loss = 837.18 (* 1 = 837.18 loss)
+Iteration 50000, loss = 689.079
+    Train net output #1: loss = 689.079 (* 1 = 689.079 loss)
+Iteration 50250, loss = 563.677
+    Train net output #1: loss = 563.677 (* 1 = 563.677 loss)
+Iteration 50500, loss = 527.048
+    Train net output #1: loss = 527.048 (* 1 = 527.048 loss)
+Iteration 50750, loss = 412.836
+    Train net output #1: loss = 412.835 (* 1 = 412.835 loss)
+Iteration 51000, loss = 464.776
+    Train net output #1: loss = 464.776 (* 1 = 464.776 loss)
+Iteration 51250, loss = 887.767
+    Train net output #1: loss = 887.767 (* 1 = 887.767 loss)
+Iteration 51500, loss = 590.735
+    Train net output #1: loss = 590.734 (* 1 = 590.734 loss)
+Iteration 51750, loss = 448.906
+    Train net output #1: loss = 448.906 (* 1 = 448.906 loss)
+Iteration 52000, loss = 613.51
+    Train net output #1: loss = 613.51 (* 1 = 613.51 loss)
+Iteration 52250, loss = 503.176
+    Train net output #1: loss = 503.176 (* 1 = 503.176 loss)
+Iteration 52500, loss = 430.292
+    Train net output #1: loss = 430.291 (* 1 = 430.291 loss)
+Iteration 52750, loss = 471.384
+    Train net output #1: loss = 471.384 (* 1 = 471.384 loss)
+Iteration 53000, loss = 658.043
+    Train net output #1: loss = 658.043 (* 1 = 658.043 loss)
+Iteration 53250, loss = 524.656
+    Train net output #1: loss = 524.655 (* 1 = 524.655 loss)
+Iteration 53500, loss = 605.404
+    Train net output #1: loss = 605.404 (* 1 = 605.404 loss)
+Iteration 53750, loss = 536.419
+    Train net output #1: loss = 536.418 (* 1 = 536.418 loss)
+Iteration 54000, loss = 718.385
+    Train net output #1: loss = 718.385 (* 1 = 718.385 loss)
+Iteration 54250, loss = 640.708
+    Train net output #1: loss = 640.708 (* 1 = 640.708 loss)
+Iteration 54500, loss = 537.819
+    Train net output #1: loss = 537.819 (* 1 = 537.819 loss)
+Iteration 54750, loss = 624.009
+    Train net output #1: loss = 624.009 (* 1 = 624.009 loss)
+Iteration 55000, Testing net (#0)    Test net output #0: loss = 1293.9 (* 1 = 1293.9 loss)
+Iteration 55000, loss = 712.63
+    Train net output #1: loss = 712.63 (* 1 = 712.63 loss)
+Iteration 55250, loss = 565.299
+    Train net output #1: loss = 565.299 (* 1 = 565.299 loss)
+Iteration 55500, loss = 705.427
+    Train net output #1: loss = 705.426 (* 1 = 705.426 loss)
+Iteration 55750, loss = 660.469
+    Train net output #1: loss = 660.468 (* 1 = 660.468 loss)
+Iteration 56000, loss = 434.706
+    Train net output #1: loss = 434.706 (* 1 = 434.706 loss)
+Iteration 56250, loss = 667.602
+    Train net output #1: loss = 667.602 (* 1 = 667.602 loss)
+Iteration 56500, loss = 708.89
+    Train net output #1: loss = 708.89 (* 1 = 708.89 loss)
+Iteration 56750, loss = 468.647
+    Train net output #1: loss = 468.646 (* 1 = 468.646 loss)
+Iteration 57000, loss = 697.56
+    Train net output #1: loss = 697.56 (* 1 = 697.56 loss)
+Iteration 57250, loss = 659.262
+    Train net output #1: loss = 659.262 (* 1 = 659.262 loss)
+Iteration 57500, loss = 609.693
+    Train net output #1: loss = 609.692 (* 1 = 609.692 loss)
+Iteration 57750, loss = 528.898
+    Train net output #1: loss = 528.898 (* 1 = 528.898 loss)
+Iteration 58000, loss = 539.36
+    Train net output #1: loss = 539.36 (* 1 = 539.36 loss)
+Iteration 58250, loss = 569.733
+    Train net output #1: loss = 569.733 (* 1 = 569.733 loss)
+Iteration 58500, loss = 880.953
+    Train net output #1: loss = 880.952 (* 1 = 880.952 loss)
+Iteration 58750, loss = 431.373
+    Train net output #1: loss = 431.372 (* 1 = 431.372 loss)
+Iteration 59000, loss = 330.97
+    Train net output #1: loss = 330.97 (* 1 = 330.97 loss)
+Iteration 59250, loss = 495.475
+    Train net output #1: loss = 495.475 (* 1 = 495.475 loss)
+Iteration 59500, loss = 426.9
+    Train net output #1: loss = 426.899 (* 1 = 426.899 loss)
+Iteration 59750, loss = 493.174
+    Train net output #1: loss = 493.174 (* 1 = 493.174 loss)
+Iteration 60000, Testing net (#0)    Test net output #0: loss = 837.184 (* 1 = 837.184 loss)
+Iteration 60000, loss = 581.602
+    Train net output #1: loss = 581.601 (* 1 = 581.601 loss)
+Iteration 60250, loss = 612.01
+    Train net output #1: loss = 612.01 (* 1 = 612.01 loss)
+Iteration 60500, loss = 410.795
+    Train net output #1: loss = 410.795 (* 1 = 410.795 loss)
+Iteration 60750, loss = 605.598
+    Train net output #1: loss = 605.598 (* 1 = 605.598 loss)
+Iteration 61000, loss = 444.888
+    Train net output #1: loss = 444.888 (* 1 = 444.888 loss)
+Iteration 61250, loss = 502.9
+    Train net output #1: loss = 502.899 (* 1 = 502.899 loss)
+Iteration 61500, loss = 620.018
+    Train net output #1: loss = 620.018 (* 1 = 620.018 loss)
+Iteration 61750, loss = 432.109
+    Train net output #1: loss = 432.108 (* 1 = 432.108 loss)
+Iteration 62000, loss = 665.242
+    Train net output #1: loss = 665.242 (* 1 = 665.242 loss)
+Iteration 62250, loss = 489.937
+    Train net output #1: loss = 489.937 (* 1 = 489.937 loss)
+Iteration 62500, loss = 599.299
+    Train net output #1: loss = 599.298 (* 1 = 599.298 loss)
+Iteration 62750, loss = 483.301
+    Train net output #1: loss = 483.301 (* 1 = 483.301 loss)
+Iteration 63000, loss = 766.62
+    Train net output #1: loss = 766.619 (* 1 = 766.619 loss)
+Iteration 63250, loss = 559.577
+    Train net output #1: loss = 559.577 (* 1 = 559.577 loss)
+Iteration 63500, loss = 409.323
+    Train net output #1: loss = 409.323 (* 1 = 409.323 loss)
+Iteration 63750, loss = 657.244
+    Train net output #1: loss = 657.244 (* 1 = 657.244 loss)
+Iteration 64000, loss = 683.234
+    Train net output #1: loss = 683.234 (* 1 = 683.234 loss)
+Iteration 64250, loss = 709.938
+    Train net output #1: loss = 709.938 (* 1 = 709.938 loss)
+Iteration 64500, loss = 836.591
+    Train net output #1: loss = 836.59 (* 1 = 836.59 loss)
+Iteration 64750, loss = 779.645
+    Train net output #1: loss = 779.644 (* 1 = 779.644 loss)
+Iteration 65000, Testing net (#0)    Test net output #0: loss = 1292.39 (* 1 = 1292.39 loss)
+Iteration 65000, loss = 597.617
+    Train net output #1: loss = 597.617 (* 1 = 597.617 loss)
+Iteration 65250, loss = 1033.95
+    Train net output #1: loss = 1033.95 (* 1 = 1033.95 loss)
+Iteration 65500, loss = 566.696
+    Train net output #1: loss = 566.695 (* 1 = 566.695 loss)
+Iteration 65750, loss = 649.875
+    Train net output #1: loss = 649.874 (* 1 = 649.874 loss)
+Iteration 66000, loss = 330.726
+    Train net output #1: loss = 330.726 (* 1 = 330.726 loss)
+Iteration 66250, loss = 773.699
+    Train net output #1: loss = 773.699 (* 1 = 773.699 loss)
+Iteration 66500, loss = 530.647
+    Train net output #1: loss = 530.647 (* 1 = 530.647 loss)
+Iteration 66750, loss = 717.744
+    Train net output #1: loss = 717.743 (* 1 = 717.743 loss)
+Iteration 67000, loss = 554.977
+    Train net output #1: loss = 554.976 (* 1 = 554.976 loss)
+Iteration 67250, loss = 832.279
+    Train net output #1: loss = 832.279 (* 1 = 832.279 loss)
+Iteration 67500, loss = 615.535
+    Train net output #1: loss = 615.534 (* 1 = 615.534 loss)
+Iteration 67750, loss = 606.615
+    Train net output #1: loss = 606.614 (* 1 = 606.614 loss)
+Iteration 68000, loss = 729.901
+    Train net output #1: loss = 729.9 (* 1 = 729.9 loss)
+Iteration 68250, loss = 645.121
+    Train net output #1: loss = 645.12 (* 1 = 645.12 loss)
+Iteration 68500, loss = 569.525
+    Train net output #1: loss = 569.525 (* 1 = 569.525 loss)
+Iteration 68750, loss = 706.177
+    Train net output #1: loss = 706.177 (* 1 = 706.177 loss)
+Iteration 69000, loss = 466.925
+    Train net output #1: loss = 466.925 (* 1 = 466.925 loss)
+Iteration 69250, loss = 468.466
+    Train net output #1: loss = 468.465 (* 1 = 468.465 loss)
+Iteration 69500, loss = 554.496
+    Train net output #1: loss = 554.495 (* 1 = 554.495 loss)
+Iteration 69750, loss = 623.554
+    Train net output #1: loss = 623.553 (* 1 = 623.553 loss)
+Iteration 70000, Testing net (#0)    Test net output #0: loss = 837.265 (* 1 = 837.265 loss)
+Iteration 70000, loss = 749.782
+    Train net output #1: loss = 749.781 (* 1 = 749.781 loss)
+Iteration 70250, loss = 412.019
+    Train net output #1: loss = 412.019 (* 1 = 412.019 loss)
+Iteration 70500, loss = 611.745
+    Train net output #1: loss = 611.745 (* 1 = 611.745 loss)
+Iteration 70750, loss = 522.615
+    Train net output #1: loss = 522.615 (* 1 = 522.615 loss)
+Iteration 71000, loss = 512.2
+    Train net output #1: loss = 512.2 (* 1 = 512.2 loss)
+Iteration 71250, loss = 645.459
+    Train net output #1: loss = 645.458 (* 1 = 645.458 loss)
+Iteration 71500, loss = 709.997
+    Train net output #1: loss = 709.996 (* 1 = 709.996 loss)
+Iteration 71750, loss = 666.603
+    Train net output #1: loss = 666.602 (* 1 = 666.602 loss)
+Iteration 72000, loss = 629.947
+    Train net output #1: loss = 629.946 (* 1 = 629.946 loss)
+Iteration 72250, loss = 816.588
+    Train net output #1: loss = 816.587 (* 1 = 816.587 loss)
+Iteration 72500, loss = 834.57
+    Train net output #1: loss = 834.569 (* 1 = 834.569 loss)
+Iteration 72750, loss = 690.523
+    Train net output #1: loss = 690.523 (* 1 = 690.523 loss)
+Iteration 73000, loss = 447.556
+    Train net output #1: loss = 447.556 (* 1 = 447.556 loss)
+Iteration 73250, loss = 552.124
+    Train net output #1: loss = 552.123 (* 1 = 552.123 loss)
+Iteration 73500, loss = 418.758
+    Train net output #1: loss = 418.757 (* 1 = 418.757 loss)
+Iteration 73750, loss = 598.359
+    Train net output #1: loss = 598.358 (* 1 = 598.358 loss)
+Iteration 74000, loss = 485.068
+    Train net output #1: loss = 485.067 (* 1 = 485.067 loss)
+Iteration 74250, loss = 741.639
+    Train net output #1: loss = 741.638 (* 1 = 741.638 loss)
+Iteration 74500, loss = 669.701
+    Train net output #1: loss = 669.7 (* 1 = 669.7 loss)
+Iteration 74750, loss = 485.099
+    Train net output #1: loss = 485.098 (* 1 = 485.098 loss)
+Iteration 75000, Testing net (#0)    Test net output #0: loss = 1292.1 (* 1 = 1292.1 loss)
+Iteration 75000, loss = 757.554
+    Train net output #1: loss = 757.554 (* 1 = 757.554 loss)
+Iteration 75250, loss = 530.057
+    Train net output #1: loss = 530.057 (* 1 = 530.057 loss)
+Iteration 75500, loss = 517.682
+    Train net output #1: loss = 517.682 (* 1 = 517.682 loss)
+Iteration 75750, loss = 700.503
+    Train net output #1: loss = 700.502 (* 1 = 700.502 loss)
+Iteration 76000, loss = 776.985
+    Train net output #1: loss = 776.984 (* 1 = 776.984 loss)
+Iteration 76250, loss = 743.607
+    Train net output #1: loss = 743.606 (* 1 = 743.606 loss)
+Iteration 76500, loss = 579.082
+    Train net output #1: loss = 579.082 (* 1 = 579.082 loss)
+Iteration 76750, loss = 579.361
+    Train net output #1: loss = 579.36 (* 1 = 579.36 loss)
+Iteration 77000, loss = 758.85
+    Train net output #1: loss = 758.849 (* 1 = 758.849 loss)
+Iteration 77250, loss = 572.002
+    Train net output #1: loss = 572.002 (* 1 = 572.002 loss)
+Iteration 77500, loss = 575.658
+    Train net output #1: loss = 575.658 (* 1 = 575.658 loss)
+Iteration 77750, loss = 576.447
+    Train net output #1: loss = 576.446 (* 1 = 576.446 loss)
+Iteration 78000, loss = 636.507
+    Train net output #1: loss = 636.507 (* 1 = 636.507 loss)
+Iteration 78250, loss = 686.9
+    Train net output #1: loss = 686.899 (* 1 = 686.899 loss)
+Iteration 78500, loss = 638.404
+    Train net output #1: loss = 638.404 (* 1 = 638.404 loss)
+Iteration 78750, loss = 668.55
+    Train net output #1: loss = 668.549 (* 1 = 668.549 loss)
+Iteration 79000, loss = 630.025
+    Train net output #1: loss = 630.024 (* 1 = 630.024 loss)
+Iteration 79250, loss = 724.767
+    Train net output #1: loss = 724.766 (* 1 = 724.766 loss)
+Iteration 79500, loss = 735.244
+    Train net output #1: loss = 735.244 (* 1 = 735.244 loss)
+Iteration 79750, loss = 570.945
+    Train net output #1: loss = 570.944 (* 1 = 570.944 loss)
+Iteration 80000, Testing net (#0)    Test net output #0: loss = 837.268 (* 1 = 837.268 loss)
+Iteration 80000, loss = 993.703
+    Train net output #1: loss = 993.702 (* 1 = 993.702 loss)
+Iteration 80250, loss = 569.851
+    Train net output #1: loss = 569.851 (* 1 = 569.851 loss)
+Iteration 80500, loss = 502.819
+    Train net output #1: loss = 502.818 (* 1 = 502.818 loss)
+Iteration 80750, loss = 799.079
+    Train net output #1: loss = 799.078 (* 1 = 799.078 loss)
+Iteration 81000, loss = 523.643
+    Train net output #1: loss = 523.643 (* 1 = 523.643 loss)
+Iteration 81250, loss = 466.424
+    Train net output #1: loss = 466.424 (* 1 = 466.424 loss)
+Iteration 81500, loss = 589.005
+    Train net output #1: loss = 589.004 (* 1 = 589.004 loss)
+Iteration 81750, loss = 754.599
+    Train net output #1: loss = 754.598 (* 1 = 754.598 loss)
+Iteration 82000, loss = 587.617
+    Train net output #1: loss = 587.616 (* 1 = 587.616 loss)
+Iteration 82250, loss = 689.777
+    Train net output #1: loss = 689.777 (* 1 = 689.777 loss)
+Iteration 82500, loss = 285.865
+    Train net output #1: loss = 285.864 (* 1 = 285.864 loss)
+Iteration 82750, loss = 527.638
+    Train net output #1: loss = 527.637 (* 1 = 527.637 loss)
+Iteration 83000, loss = 553.627
+    Train net output #1: loss = 553.626 (* 1 = 553.626 loss)
+Iteration 83250, loss = 965.363
+    Train net output #1: loss = 965.363 (* 1 = 965.363 loss)
+Iteration 83500, loss = 638.611
+    Train net output #1: loss = 638.61 (* 1 = 638.61 loss)
+Iteration 83750, loss = 588.967
+    Train net output #1: loss = 588.966 (* 1 = 588.966 loss)
+Iteration 84000, loss = 483.711
+    Train net output #1: loss = 483.71 (* 1 = 483.71 loss)
+Iteration 84250, loss = 512.841
+    Train net output #1: loss = 512.841 (* 1 = 512.841 loss)
+Iteration 84500, loss = 628.343
+    Train net output #1: loss = 628.342 (* 1 = 628.342 loss)
+Iteration 84750, loss = 416.333
+    Train net output #1: loss = 416.333 (* 1 = 416.333 loss)
+Iteration 85000, Testing net (#0)    Test net output #0: loss = 1292.04 (* 1 = 1292.04 loss)
+Iteration 85000, loss = 946.355
+    Train net output #1: loss = 946.354 (* 1 = 946.354 loss)
+Iteration 85250, loss = 410.596
+    Train net output #1: loss = 410.595 (* 1 = 410.595 loss)
+Iteration 85500, loss = 615.738
+    Train net output #1: loss = 615.737 (* 1 = 615.737 loss)
+Iteration 85750, loss = 535.097
+    Train net output #1: loss = 535.096 (* 1 = 535.096 loss)
+Iteration 86000, loss = 634.964
+    Train net output #1: loss = 634.963 (* 1 = 634.963 loss)
+Iteration 86250, loss = 695.819
+    Train net output #1: loss = 695.818 (* 1 = 695.818 loss)
+Iteration 86500, loss = 858.418
+    Train net output #1: loss = 858.417 (* 1 = 858.417 loss)
+Iteration 86750, loss = 539.832
+    Train net output #1: loss = 539.832 (* 1 = 539.832 loss)
+Iteration 87000, loss = 782.606
+    Train net output #1: loss = 782.605 (* 1 = 782.605 loss)
+Iteration 87250, loss = 641.286
+    Train net output #1: loss = 641.285 (* 1 = 641.285 loss)
+Iteration 87500, loss = 597.907
+    Train net output #1: loss = 597.906 (* 1 = 597.906 loss)
+Iteration 87750, loss = 778.246
+    Train net output #1: loss = 778.246 (* 1 = 778.246 loss)
+Iteration 88000, loss = 736.87
+    Train net output #1: loss = 736.869 (* 1 = 736.869 loss)
+Iteration 88250, loss = 614.008
+    Train net output #1: loss = 614.007 (* 1 = 614.007 loss)
+Iteration 88500, loss = 607.224
+    Train net output #1: loss = 607.223 (* 1 = 607.223 loss)
+Iteration 88750, loss = 513.425
+    Train net output #1: loss = 513.424 (* 1 = 513.424 loss)
+Iteration 89000, loss = 355.107
+    Train net output #1: loss = 355.106 (* 1 = 355.106 loss)
+Iteration 89250, loss = 699.553
+    Train net output #1: loss = 699.552 (* 1 = 699.552 loss)
+Iteration 89500, loss = 615.412
+    Train net output #1: loss = 615.411 (* 1 = 615.411 loss)
+Iteration 89750, loss = 343.558
+    Train net output #1: loss = 343.558 (* 1 = 343.558 loss)
+Iteration 90000, Testing net (#0)    Test net output #0: loss = 837.263 (* 1 = 837.263 loss)
+Iteration 90000, loss = 485.478
+    Train net output #1: loss = 485.477 (* 1 = 485.477 loss)
+Iteration 90250, loss = 856.584
+    Train net output #1: loss = 856.584 (* 1 = 856.584 loss)
+Iteration 90500, loss = 420.938
+    Train net output #1: loss = 420.938 (* 1 = 420.938 loss)
+Iteration 90750, loss = 557.401
+    Train net output #1: loss = 557.4 (* 1 = 557.4 loss)
+Iteration 91000, loss = 808.567
+    Train net output #1: loss = 808.567 (* 1 = 808.567 loss)
+Iteration 91250, loss = 832.137
+    Train net output #1: loss = 832.137 (* 1 = 832.137 loss)
+Iteration 91500, loss = 804.633
+    Train net output #1: loss = 804.633 (* 1 = 804.633 loss)
+Iteration 91750, loss = 494.33
+    Train net output #1: loss = 494.329 (* 1 = 494.329 loss)
+Iteration 92000, loss = 501.48
+    Train net output #1: loss = 501.48 (* 1 = 501.48 loss)
+Iteration 92250, loss = 607.705
+    Train net output #1: loss = 607.704 (* 1 = 607.704 loss)
+Iteration 92500, loss = 726.732
+    Train net output #1: loss = 726.731 (* 1 = 726.731 loss)
+Iteration 92750, loss = 845.788
+    Train net output #1: loss = 845.787 (* 1 = 845.787 loss)
+Iteration 93000, loss = 461.461
+    Train net output #1: loss = 461.46 (* 1 = 461.46 loss)
+Iteration 93250, loss = 618.689
+    Train net output #1: loss = 618.688 (* 1 = 618.688 loss)
+Iteration 93500, loss = 712.576
+    Train net output #1: loss = 712.575 (* 1 = 712.575 loss)
+Iteration 93750, loss = 632.092
+    Train net output #1: loss = 632.091 (* 1 = 632.091 loss)
+Iteration 94000, loss = 789.621
+    Train net output #1: loss = 789.62 (* 1 = 789.62 loss)
+Iteration 94250, loss = 606.667
+    Train net output #1: loss = 606.666 (* 1 = 606.666 loss)
+Iteration 94500, loss = 399.94
+    Train net output #1: loss = 399.939 (* 1 = 399.939 loss)
+Iteration 94750, loss = 459.674
+    Train net output #1: loss = 459.673 (* 1 = 459.673 loss)
+Iteration 95000, Testing net (#0)    Test net output #0: loss = 1292.03 (* 1 = 1292.03 loss)
+Iteration 95000, loss = 545.34
+    Train net output #1: loss = 545.34 (* 1 = 545.34 loss)
+Iteration 95250, loss = 447.166
+    Train net output #1: loss = 447.166 (* 1 = 447.166 loss)
+Iteration 95500, loss = 475.384
+    Train net output #1: loss = 475.383 (* 1 = 475.383 loss)
+Iteration 95750, loss = 511.024
+    Train net output #1: loss = 511.023 (* 1 = 511.023 loss)
+Iteration 96000, loss = 725.219
+    Train net output #1: loss = 725.218 (* 1 = 725.218 loss)
+Iteration 96250, loss = 640.333
+    Train net output #1: loss = 640.332 (* 1 = 640.332 loss)
+Iteration 96500, loss = 772.617
+    Train net output #1: loss = 772.616 (* 1 = 772.616 loss)
+Iteration 96750, loss = 683.937
+    Train net output #1: loss = 683.936 (* 1 = 683.936 loss)
+Iteration 97000, loss = 589.023
+    Train net output #1: loss = 589.022 (* 1 = 589.022 loss)
+Iteration 97250, loss = 448.667
+    Train net output #1: loss = 448.666 (* 1 = 448.666 loss)
+Iteration 97500, loss = 370.898
+    Train net output #1: loss = 370.897 (* 1 = 370.897 loss)
+Iteration 97750, loss = 421.298
+    Train net output #1: loss = 421.297 (* 1 = 421.297 loss)
+Iteration 98000, loss = 548.736
+    Train net output #1: loss = 548.735 (* 1 = 548.735 loss)
+Iteration 98250, loss = 510.888
+    Train net output #1: loss = 510.888 (* 1 = 510.888 loss)
+Iteration 98500, loss = 681.631
+    Train net output #1: loss = 681.63 (* 1 = 681.63 loss)
+Iteration 98750, loss = 557.299
+    Train net output #1: loss = 557.298 (* 1 = 557.298 loss)
+Iteration 99000, loss = 724.424
+    Train net output #1: loss = 724.424 (* 1 = 724.424 loss)
+Iteration 99250, loss = 720.442
+    Train net output #1: loss = 720.441 (* 1 = 720.441 loss)
+Iteration 99500, loss = 525.374
+    Train net output #1: loss = 525.373 (* 1 = 525.373 loss)
+Iteration 99750, loss = 851.005
+    Train net output #1: loss = 851.005 (* 1 = 851.005 loss)
+Iteration 100000, Testing net (#0)    Test net output #0: loss = 837.263 (* 1 = 837.263 loss)
+Iteration 100000, loss = 605.494
+    Train net output #1: loss = 605.493 (* 1 = 605.493 loss)
+Iteration 100250, loss = 704.035
+    Train net output #1: loss = 704.034 (* 1 = 704.034 loss)
+Iteration 100500, loss = 533.804
+    Train net output #1: loss = 533.803 (* 1 = 533.803 loss)
+Iteration 100750, loss = 658.722
+    Train net output #1: loss = 658.721 (* 1 = 658.721 loss)
+Iteration 101000, loss = 725.181
+    Train net output #1: loss = 725.18 (* 1 = 725.18 loss)
+Iteration 101250, loss = 600.26
+    Train net output #1: loss = 600.259 (* 1 = 600.259 loss)
+Iteration 101500, loss = 426.757
+    Train net output #1: loss = 426.757 (* 1 = 426.757 loss)
+Iteration 101750, loss = 623.518
+    Train net output #1: loss = 623.517 (* 1 = 623.517 loss)
+Iteration 102000, loss = 524.325
+    Train net output #1: loss = 524.324 (* 1 = 524.324 loss)
+Iteration 102250, loss = 778.478
+    Train net output #1: loss = 778.478 (* 1 = 778.478 loss)
+Iteration 102500, loss = 521.237
+    Train net output #1: loss = 521.236 (* 1 = 521.236 loss)
+Iteration 102750, loss = 651.916
+    Train net output #1: loss = 651.916 (* 1 = 651.916 loss)
+Iteration 103000, loss = 533.881
+    Train net output #1: loss = 533.88 (* 1 = 533.88 loss)
+Iteration 103250, loss = 516.804
+    Train net output #1: loss = 516.804 (* 1 = 516.804 loss)
+Iteration 103500, loss = 689.11
+    Train net output #1: loss = 689.109 (* 1 = 689.109 loss)
+Iteration 103750, loss = 528.736
+    Train net output #1: loss = 528.736 (* 1 = 528.736 loss)
+Iteration 104000, loss = 618.167
+    Train net output #1: loss = 618.166 (* 1 = 618.166 loss)
+Iteration 104250, loss = 673.626
+    Train net output #1: loss = 673.625 (* 1 = 673.625 loss)
+Iteration 104500, loss = 585.414
+    Train net output #1: loss = 585.413 (* 1 = 585.413 loss)
+Iteration 104750, loss = 610.157
+    Train net output #1: loss = 610.156 (* 1 = 610.156 loss)
+Iteration 105000, Testing net (#0)    Test net output #0: loss = 1292.03 (* 1 = 1292.03 loss)
+Iteration 105000, loss = 704.969
+    Train net output #1: loss = 704.968 (* 1 = 704.968 loss)
+Iteration 105250, loss = 708.691
+    Train net output #1: loss = 708.69 (* 1 = 708.69 loss)
+Iteration 105500, loss = 615.723
+    Train net output #1: loss = 615.722 (* 1 = 615.722 loss)
+Iteration 105750, loss = 752.854
+    Train net output #1: loss = 752.853 (* 1 = 752.853 loss)
+Iteration 106000, loss = 689.959
+    Train net output #1: loss = 689.959 (* 1 = 689.959 loss)
+Iteration 106250, loss = 805.307
+    Train net output #1: loss = 805.307 (* 1 = 805.307 loss)
+Iteration 106500, loss = 697.235
+    Train net output #1: loss = 697.234 (* 1 = 697.234 loss)
+Iteration 106750, loss = 489.328
+    Train net output #1: loss = 489.327 (* 1 = 489.327 loss)
+Iteration 107000, loss = 456.182
+    Train net output #1: loss = 456.181 (* 1 = 456.181 loss)
+Iteration 107250, loss = 510.614
+    Train net output #1: loss = 510.613 (* 1 = 510.613 loss)
+Iteration 107500, loss = 437.316
+    Train net output #1: loss = 437.315 (* 1 = 437.315 loss)
+Iteration 107750, loss = 456.785
+    Train net output #1: loss = 456.785 (* 1 = 456.785 loss)
+Iteration 108000, loss = 628.419
+    Train net output #1: loss = 628.418 (* 1 = 628.418 loss)
+Iteration 108250, loss = 543.066
+    Train net output #1: loss = 543.065 (* 1 = 543.065 loss)
+Iteration 108500, loss = 742.333
+    Train net output #1: loss = 742.333 (* 1 = 742.333 loss)
+Iteration 108750, loss = 365.631
+    Train net output #1: loss = 365.63 (* 1 = 365.63 loss)
+Iteration 109000, loss = 524.465
+    Train net output #1: loss = 524.464 (* 1 = 524.464 loss)
+Iteration 109250, loss = 894.491
+    Train net output #1: loss = 894.49 (* 1 = 894.49 loss)
+Iteration 109500, loss = 341.515
+    Train net output #1: loss = 341.515 (* 1 = 341.515 loss)
+Iteration 109750, loss = 620.671
+    Train net output #1: loss = 620.671 (* 1 = 620.671 loss)
+Iteration 110000, Testing net (#0)    Test net output #0: loss = 837.262 (* 1 = 837.262 loss)
+Iteration 110000, loss = 632.315
+    Train net output #1: loss = 632.315 (* 1 = 632.315 loss)
+Iteration 110250, loss = 654.417
+    Train net output #1: loss = 654.417 (* 1 = 654.417 loss)
+Iteration 110500, loss = 563.776
+    Train net output #1: loss = 563.775 (* 1 = 563.775 loss)
+Iteration 110750, loss = 678.969
+    Train net output #1: loss = 678.968 (* 1 = 678.968 loss)
+Iteration 111000, loss = 420.157
+    Train net output #1: loss = 420.157 (* 1 = 420.157 loss)
+Iteration 111250, loss = 586.304
+    Train net output #1: loss = 586.303 (* 1 = 586.303 loss)
+Iteration 111500, loss = 651.277
+    Train net output #1: loss = 651.276 (* 1 = 651.276 loss)
+Iteration 111750, loss = 655.777
+    Train net output #1: loss = 655.777 (* 1 = 655.777 loss)
+Iteration 112000, loss = 688.544
+    Train net output #1: loss = 688.543 (* 1 = 688.543 loss)
+Iteration 112250, loss = 518.452
+    Train net output #1: loss = 518.451 (* 1 = 518.451 loss)
+Iteration 112500, loss = 541.459
+    Train net output #1: loss = 541.458 (* 1 = 541.458 loss)
+Iteration 112750, loss = 512.392
+    Train net output #1: loss = 512.391 (* 1 = 512.391 loss)
+Iteration 113000, loss = 473.827
+    Train net output #1: loss = 473.826 (* 1 = 473.826 loss)
+Iteration 113250, loss = 421.943
+    Train net output #1: loss = 421.942 (* 1 = 421.942 loss)
+Iteration 113500, loss = 629.188
+    Train net output #1: loss = 629.188 (* 1 = 629.188 loss)
+Iteration 113750, loss = 539.159
+    Train net output #1: loss = 539.159 (* 1 = 539.159 loss)
+Iteration 114000, loss = 293.194
+    Train net output #1: loss = 293.194 (* 1 = 293.194 loss)
+Iteration 114250, loss = 390.144
+    Train net output #1: loss = 390.143 (* 1 = 390.143 loss)
+Iteration 114500, loss = 507.948
+    Train net output #1: loss = 507.947 (* 1 = 507.947 loss)
+Iteration 114750, loss = 560.872
+    Train net output #1: loss = 560.872 (* 1 = 560.872 loss)
+Iteration 115000, Testing net (#0)    Test net output #0: loss = 1292.03 (* 1 = 1292.03 loss)
+Iteration 115000, loss = 613.545
+    Train net output #1: loss = 613.545 (* 1 = 613.545 loss)
+Iteration 115250, loss = 709.193
+    Train net output #1: loss = 709.193 (* 1 = 709.193 loss)
+Iteration 115500, loss = 503.001
+    Train net output #1: loss = 503 (* 1 = 503 loss)
+Iteration 115750, loss = 743.07
+    Train net output #1: loss = 743.069 (* 1 = 743.069 loss)
+Iteration 116000, loss = 649.993
+    Train net output #1: loss = 649.993 (* 1 = 649.993 loss)
+Iteration 116250, loss = 786.753
+    Train net output #1: loss = 786.752 (* 1 = 786.752 loss)
+Iteration 116500, loss = 563.461
+    Train net output #1: loss = 563.46 (* 1 = 563.46 loss)
+Iteration 116750, loss = 500.455
+    Train net output #1: loss = 500.454 (* 1 = 500.454 loss)
+Iteration 117000, loss = 607.962
+    Train net output #1: loss = 607.961 (* 1 = 607.961 loss)
+Iteration 117250, loss = 728.102
+    Train net output #1: loss = 728.102 (* 1 = 728.102 loss)
+Iteration 117500, loss = 582.492
+    Train net output #1: loss = 582.492 (* 1 = 582.492 loss)
+Iteration 117750, loss = 426.25
+    Train net output #1: loss = 426.249 (* 1 = 426.249 loss)
+Iteration 118000, loss = 595.084
+    Train net output #1: loss = 595.083 (* 1 = 595.083 loss)
+Iteration 118250, loss = 522.151
+    Train net output #1: loss = 522.151 (* 1 = 522.151 loss)
+Iteration 118500, loss = 497.584
+    Train net output #1: loss = 497.584 (* 1 = 497.584 loss)
+Iteration 118750, loss = 799.911
+    Train net output #1: loss = 799.91 (* 1 = 799.91 loss)
+Iteration 119000, loss = 561.677
+    Train net output #1: loss = 561.677 (* 1 = 561.677 loss)
+Iteration 119250, loss = 496.777
+    Train net output #1: loss = 496.777 (* 1 = 496.777 loss)
+Iteration 119500, loss = 590.496
+    Train net output #1: loss = 590.495 (* 1 = 590.495 loss)
+Iteration 119750, loss = 382.778
+    Train net output #1: loss = 382.778 (* 1 = 382.778 loss)
+Iteration 120000, Testing net (#0)    Test net output #0: loss = 837.262 (* 1 = 837.262 loss)
+Iteration 120000, loss = 456.297
+    Train net output #1: loss = 456.297 (* 1 = 456.297 loss)
+Iteration 120250, loss = 767.425
+    Train net output #1: loss = 767.424 (* 1 = 767.424 loss)
+Iteration 120500, loss = 514.835
+    Train net output #1: loss = 514.834 (* 1 = 514.834 loss)
+Iteration 120750, loss = 552.047
+    Train net output #1: loss = 552.046 (* 1 = 552.046 loss)
+Iteration 121000, loss = 585.677
+    Train net output #1: loss = 585.676 (* 1 = 585.676 loss)
+Iteration 121250, loss = 917.374
+    Train net output #1: loss = 917.373 (* 1 = 917.373 loss)
+Iteration 121500, loss = 738.305
+    Train net output #1: loss = 738.304 (* 1 = 738.304 loss)
+Iteration 121750, loss = 460.197
+    Train net output #1: loss = 460.197 (* 1 = 460.197 loss)
+Iteration 122000, loss = 764.914
+    Train net output #1: loss = 764.914 (* 1 = 764.914 loss)
+Iteration 122250, loss = 644.777
+    Train net output #1: loss = 644.777 (* 1 = 644.777 loss)
+Iteration 122500, loss = 575.633
+    Train net output #1: loss = 575.632 (* 1 = 575.632 loss)
+Iteration 122750, loss = 376.143
+    Train net output #1: loss = 376.142 (* 1 = 376.142 loss)
+Iteration 123000, loss = 852.374
+    Train net output #1: loss = 852.374 (* 1 = 852.374 loss)
+Iteration 123250, loss = 693.095
+    Train net output #1: loss = 693.095 (* 1 = 693.095 loss)
+Iteration 123500, loss = 505.578
+    Train net output #1: loss = 505.578 (* 1 = 505.578 loss)
+Iteration 123750, loss = 798.745
+    Train net output #1: loss = 798.745 (* 1 = 798.745 loss)
+Iteration 124000, loss = 628.662
+    Train net output #1: loss = 628.662 (* 1 = 628.662 loss)
+Iteration 124250, loss = 604.065
+    Train net output #1: loss = 604.065 (* 1 = 604.065 loss)
+Iteration 124500, loss = 484.306
+    Train net output #1: loss = 484.305 (* 1 = 484.305 loss)
+Iteration 124750, loss = 609.078
+    Train net output #1: loss = 609.078 (* 1 = 609.078 loss)
+Iteration 125000, Testing net (#0)    Test net output #0: loss = 1292.03 (* 1 = 1292.03 loss)
+Iteration 125000, loss = 601.997
+    Train net output #1: loss = 601.996 (* 1 = 601.996 loss)
+Iteration 125250, loss = 680.645
+    Train net output #1: loss = 680.644 (* 1 = 680.644 loss)
+Iteration 125500, loss = 486.268
+    Train net output #1: loss = 486.268 (* 1 = 486.268 loss)
+Iteration 125750, loss = 610.708
+    Train net output #1: loss = 610.708 (* 1 = 610.708 loss)
+Iteration 126000, loss = 643.615
+    Train net output #1: loss = 643.614 (* 1 = 643.614 loss)
+Iteration 126250, loss = 434.99
+    Train net output #1: loss = 434.99 (* 1 = 434.99 loss)
+Iteration 126500, loss = 585.401
+    Train net output #1: loss = 585.401 (* 1 = 585.401 loss)
+Iteration 126750, loss = 666.442
+    Train net output #1: loss = 666.442 (* 1 = 666.442 loss)
+Iteration 127000, loss = 598.485
+    Train net output #1: loss = 598.485 (* 1 = 598.485 loss)
+Iteration 127250, loss = 853.696
+    Train net output #1: loss = 853.696 (* 1 = 853.696 loss)
+Iteration 127500, loss = 719.534
+    Train net output #1: loss = 719.534 (* 1 = 719.534 loss)
+Iteration 127750, loss = 534.558
+    Train net output #1: loss = 534.558 (* 1 = 534.558 loss)
+Iteration 128000, loss = 494.288
+    Train net output #1: loss = 494.288 (* 1 = 494.288 loss)
+Iteration 128250, loss = 515.549
+    Train net output #1: loss = 515.549 (* 1 = 515.549 loss)
+Iteration 128500, loss = 613.224
+    Train net output #1: loss = 613.224 (* 1 = 613.224 loss)
+Iteration 128750, loss = 627.18
+    Train net output #1: loss = 627.18 (* 1 = 627.18 loss)
+Iteration 129000, loss = 749.497
+    Train net output #1: loss = 749.497 (* 1 = 749.497 loss)
+Iteration 129250, loss = 577.291
+    Train net output #1: loss = 577.29 (* 1 = 577.29 loss)
+Iteration 129500, loss = 612.09
+    Train net output #1: loss = 612.09 (* 1 = 612.09 loss)
+Iteration 129750, loss = 594.587
+    Train net output #1: loss = 594.587 (* 1 = 594.587 loss)
+Iteration 130000, Testing net (#0)    Test net output #0: loss = 837.262 (* 1 = 837.262 loss)
+Iteration 130000, loss = 632.762
+    Train net output #1: loss = 632.762 (* 1 = 632.762 loss)
+Iteration 130250, loss = 564.817
+    Train net output #1: loss = 564.817 (* 1 = 564.817 loss)
+Iteration 130500, loss = 571.741
+    Train net output #1: loss = 571.74 (* 1 = 571.74 loss)
+Iteration 130750, loss = 583.866
+    Train net output #1: loss = 583.866 (* 1 = 583.866 loss)
+Iteration 131000, loss = 670.414
+    Train net output #1: loss = 670.413 (* 1 = 670.413 loss)
+Iteration 131250, loss = 486.928
+    Train net output #1: loss = 486.928 (* 1 = 486.928 loss)
+Iteration 131500, loss = 587.336
+    Train net output #1: loss = 587.335 (* 1 = 587.335 loss)
+Iteration 131750, loss = 390.858
+    Train net output #1: loss = 390.858 (* 1 = 390.858 loss)
+Iteration 132000, loss = 653.135
+    Train net output #1: loss = 653.135 (* 1 = 653.135 loss)
+Iteration 132250, loss = 564.992
+    Train net output #1: loss = 564.991 (* 1 = 564.991 loss)
+Iteration 132500, loss = 371.614
+    Train net output #1: loss = 371.613 (* 1 = 371.613 loss)
+Iteration 132750, loss = 652.349
+    Train net output #1: loss = 652.349 (* 1 = 652.349 loss)
+Iteration 133000, loss = 645.035
+    Train net output #1: loss = 645.035 (* 1 = 645.035 loss)
+Iteration 133250, loss = 456.287
+    Train net output #1: loss = 456.286 (* 1 = 456.286 loss)
+Iteration 133500, loss = 588.804
+    Train net output #1: loss = 588.803 (* 1 = 588.803 loss)
+Iteration 133750, loss = 724.367
+    Train net output #1: loss = 724.366 (* 1 = 724.366 loss)
+Iteration 134000, loss = 509.085
+    Train net output #1: loss = 509.085 (* 1 = 509.085 loss)
+Iteration 134250, loss = 769.115
+    Train net output #1: loss = 769.115 (* 1 = 769.115 loss)
+Iteration 134500, loss = 708.344
+    Train net output #1: loss = 708.343 (* 1 = 708.343 loss)
+Iteration 134750, loss = 759.893
+    Train net output #1: loss = 759.893 (* 1 = 759.893 loss)
+Iteration 135000, Testing net (#0)    Test net output #0: loss = 1292.03 (* 1 = 1292.03 loss)
+Iteration 135000, loss = 574.441
+    Train net output #1: loss = 574.441 (* 1 = 574.441 loss)
+Iteration 135250, loss = 847.19
+    Train net output #1: loss = 847.19 (* 1 = 847.19 loss)
+Iteration 135500, loss = 586.023
+    Train net output #1: loss = 586.022 (* 1 = 586.022 loss)
+Iteration 135750, loss = 487.671
+    Train net output #1: loss = 487.671 (* 1 = 487.671 loss)
+Iteration 136000, loss = 930.046
+    Train net output #1: loss = 930.046 (* 1 = 930.046 loss)
+Iteration 136250, loss = 403.991
+    Train net output #1: loss = 403.991 (* 1 = 403.991 loss)
+Iteration 136500, loss = 490.295
+    Train net output #1: loss = 490.294 (* 1 = 490.294 loss)
+Iteration 136750, loss = 609.583
+    Train net output #1: loss = 609.582 (* 1 = 609.582 loss)
+Iteration 137000, loss = 822.069
+    Train net output #1: loss = 822.069 (* 1 = 822.069 loss)
+Iteration 137250, loss = 637.779
+    Train net output #1: loss = 637.779 (* 1 = 637.779 loss)
+Iteration 137500, loss = 337.096
+    Train net output #1: loss = 337.095 (* 1 = 337.095 loss)
+Iteration 137750, loss = 484.049
+    Train net output #1: loss = 484.049 (* 1 = 484.049 loss)
+Iteration 138000, loss = 684.865
+    Train net output #1: loss = 684.865 (* 1 = 684.865 loss)
+Iteration 138250, loss = 782.879
+    Train net output #1: loss = 782.878 (* 1 = 782.878 loss)
+Iteration 138500, loss = 478.168
+    Train net output #1: loss = 478.167 (* 1 = 478.167 loss)
+Iteration 138750, loss = 504.069
+    Train net output #1: loss = 504.069 (* 1 = 504.069 loss)
+Iteration 139000, loss = 345.706
+    Train net output #1: loss = 345.705 (* 1 = 345.705 loss)
+Iteration 139250, loss = 396.565
+    Train net output #1: loss = 396.565 (* 1 = 396.565 loss)
+Iteration 139500, loss = 564.716
+    Train net output #1: loss = 564.716 (* 1 = 564.716 loss)
+Iteration 139750, loss = 500.537
+    Train net output #1: loss = 500.536 (* 1 = 500.536 loss)
+Iteration 140000, Testing net (#0)    Test net output #0: loss = 837.262 (* 1 = 837.262 loss)
+Iteration 140000, loss = 760.594
+    Train net output #1: loss = 760.594 (* 1 = 760.594 loss)
+Iteration 140250, loss = 642.434
+    Train net output #1: loss = 642.433 (* 1 = 642.433 loss)
+Iteration 140500, loss = 975.808
+    Train net output #1: loss = 975.807 (* 1 = 975.807 loss)
+Iteration 140750, loss = 710.22
+    Train net output #1: loss = 710.22 (* 1 = 710.22 loss)
+Iteration 141000, loss = 549.981
+    Train net output #1: loss = 549.98 (* 1 = 549.98 loss)
+Iteration 141250, loss = 598.163
+    Train net output #1: loss = 598.162 (* 1 = 598.162 loss)
+Iteration 141500, loss = 599.521
+    Train net output #1: loss = 599.521 (* 1 = 599.521 loss)
+Iteration 141750, loss = 405.61
+    Train net output #1: loss = 405.609 (* 1 = 405.609 loss)
+Iteration 142000, loss = 490.095
+    Train net output #1: loss = 490.094 (* 1 = 490.094 loss)
+Iteration 142250, loss = 681.597
+    Train net output #1: loss = 681.596 (* 1 = 681.596 loss)
+Iteration 142500, loss = 627.373
+    Train net output #1: loss = 627.372 (* 1 = 627.372 loss)
+Iteration 142750, loss = 683.445
+    Train net output #1: loss = 683.445 (* 1 = 683.445 loss)
+Iteration 143000, loss = 592.374
+    Train net output #1: loss = 592.373 (* 1 = 592.373 loss)
+Iteration 143250, loss = 703.52
+    Train net output #1: loss = 703.519 (* 1 = 703.519 loss)
+Iteration 143500, loss = 711.046
+    Train net output #1: loss = 711.046 (* 1 = 711.046 loss)
+Iteration 143750, loss = 514.047
+    Train net output #1: loss = 514.046 (* 1 = 514.046 loss)
+Iteration 144000, loss = 632.864
+    Train net output #1: loss = 632.863 (* 1 = 632.863 loss)
+Iteration 144250, loss = 416.257
+    Train net output #1: loss = 416.257 (* 1 = 416.257 loss)
+Iteration 144500, loss = 587.642
+    Train net output #1: loss = 587.641 (* 1 = 587.641 loss)
+Iteration 144750, loss = 742.154
+    Train net output #1: loss = 742.154 (* 1 = 742.154 loss)
+Iteration 145000, Testing net (#0)    Test net output #0: loss = 1292.03 (* 1 = 1292.03 loss)
+Iteration 145000, loss = 608.58
+    Train net output #1: loss = 608.579 (* 1 = 608.579 loss)
+Iteration 145250, loss = 438.203
+    Train net output #1: loss = 438.202 (* 1 = 438.202 loss)

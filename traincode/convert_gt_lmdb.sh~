@@ -1,0 +1,13 @@
+echo "Creating train lmdb..."
+GLOG_logtostderr=1
+/home/zhangyu/caffe-master/.build_release/tools/convert_imageset \
+--gray \
+/home/yangle/dataset/mcc_data/augmask/train/ \
+/home/yangle/dataset/mcc_data/txt/train/train.txt \
+/home/yangle/dataset/mcc_data/lmdb/train/train_mask_lmdb \
+echo "Done."
+
+
+
+
+
