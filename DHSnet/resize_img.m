@@ -5,4 +5,4 @@
 clear('all');
 imglist = dir('/home/zhangyu/data/mask10/images/');
 gtlist = dir('/home/zhangyu/data/mask10/GT/');
-imgpath = ''
+imgpath = '/'
