@@ -10,6 +10,6 @@ max_iter: 100000
 momentum: 0.9
 weight_decay: 0.0005
 snapshot: 5000
-snapshot_prefix: "models/SO_RCL_models"
+snapshot_prefix: "/home/zhangyu/data/DHS-data/snap/"
 solver_mode: GPU
-device_id: 0
+device_id: 2

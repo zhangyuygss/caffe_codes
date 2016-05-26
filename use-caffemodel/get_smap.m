@@ -12,10 +12,10 @@ caffe.set_mode_gpu();
 gpu_id = 1;
 caffe.set_device(gpu_id);
 %caffe.set_mode_cpu();
-model_dir = '/home/zhaolong/trainCode/models/';
-def_dir = '/home/zhangyu/codes/use-caffemodel/';
+model_dir = '/home/zhangyu/data/DHS-data/snap/';
+def_dir = '/home/zhangyu/codes/caffe-codes/DHSnet/';
 phase = 'test'; % run with phase test (so that dropout isn't applied)
-net_model = [def_dir 'SO_global_vgg_deploy.prototxt'];
+net_model = [def_dir 'SO_RCL_deploy.prototxt'];
 
 
 % net_model = '../../data/deploy.prototxt';
@@ -33,7 +33,7 @@ net_model = [def_dir 'SO_global_vgg_deploy.prototxt'];
 % disp('Writing tmp imgs')
 
 %smDir = '/home/zhangyu/codes/use-caffemodel/smap/bsd/SO_global_iter_43433';
-imgDir = '/home/zhangyu/data/bsd/images';
+imgDir = '/home/zhangyu/data/duto/images';
 % type = '.png';
 getSaliencyMap = 1;
 % if doReWrite
@@ -64,14 +64,14 @@ getSaliencyMap = 1;
 %     %imwrite(sm,['binarySmImg/' imgList(idx).name(1:6) '.png'])
 % end
 
-dilist = dir(['/home/zhangyu/codes/use-caffemodel/smap/bsd/SO*']);
-for k = 9:9
-    smDir = strcat('/home/zhangyu/codes/use-caffemodel/smap/bsd/',dilist(k).name,'/');
+dilist = dir(['/home/zhangyu/data/DHS-data/saliency-map/duto/_it*']);
+for k = 1:20
+    smDir = strcat('/home/zhangyu/data/DHS-data/saliency-map/duto/',dilist(k).name,'/');
     modelname = strcat(dilist(k).name,'.caffemodel');
     net_weights = [model_dir modelname];
     net = caffe.Net(net_model, net_weights, phase);
     if getSaliencyMap
-        disp(['Get Saliency Map:' num2str(k) '/9']);
+        disp(['Get Saliency Map:' num2str(k) '/20']);
         imgList = dir([imgDir '/*.jpg']);
         for idx = 1:length(imgList)
             img = imread([imgDir '/' imgList(idx).name]);
