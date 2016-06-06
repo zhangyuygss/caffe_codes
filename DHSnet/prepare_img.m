@@ -76,7 +76,9 @@ for datasetIdx=1:length(allDataset)
                             thisParas2=paras{2}{j};
                             for jj=1:length(thisParas2)
                                 for jjj=1:length(cropFrac)
-                                    imgTmp2=imgCrop(imgTmp1,thisParas2{jj},cropFrac(jjj),pad,'img');
+               padPixel
+padPixel
+padPixel                     imgTmp2=imgCrop(imgTmp1,thisParas2{jj},cropFrac(jjj),pad,'img');
                                     for sizeIdx=1:length(maskSize)
                                         maskTmp2{sizeIdx}=imgCrop(maskTmp1{sizeIdx},thisParas2{jj},cropFrac(jjj),pad,'mask');
                                     end
