@@ -1,0 +1,13 @@
+s = sprintf('%s%s%s%s', ... 
+'<ul class=continued><li class=continued>', ...
+'<pre><a name="13474"></a>token = strtok', ...
+'(''str'', delimiter)<a name="13475"></a>', ...
+'token = strtok(''str'')');
+
+remain = s;
+
+while true
+   [str, remain] = strtok(remain, '<>');
+   if isempty(str),  break;  end
+   disp(sprintf('%s', str))
+end
