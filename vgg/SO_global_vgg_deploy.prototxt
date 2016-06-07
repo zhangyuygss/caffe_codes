@@ -286,10 +286,10 @@ layer {
   reshape_param {
     shape {
     dim: 0
-	  dim: 1
-	  dim: 56
-	  dim: 56
-	}
+    dim: 1
+    dim: 56
+    dim: 56
+  }
   }
 }
 layer {

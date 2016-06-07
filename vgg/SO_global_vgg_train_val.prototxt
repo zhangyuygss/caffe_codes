@@ -10,7 +10,7 @@ layer {
  }
  data_param {
     source: "/home/zhangyu/data/vggnet/leveldb/train_img_leveldb"
-    batch_size: 10
+    batch_size: 64
     backend: LEVELDB
   }
   top: "img"
@@ -22,12 +22,39 @@ layer {
  transform_param { scale: 0.00392156862745098 }
  data_param {
     source: "/home/zhangyu/data/vggnet/leveldb/train_mask_leveldb"
-    batch_size: 10
+    batch_size: 64
     backend: LEVELDB
   }
   top: "mask"
 }
-
+layer {
+  name: "img"
+  type: "Data"
+  include { phase: TEST }
+ transform_param {
+    mean_value: 103.939
+    mean_value: 116.779
+    mean_value: 123.68
+ }
+ data_param {
+    source: "/home/zhangyu/data/vggnet/leveldb/test_img_leveldb"
+    batch_size: 5
+    backend: LEVELDB
+  }
+  top: "img"
+}
+layer {
+  name: "mask"
+  type: "Data"
+  include { phase: TEST }
+ transform_param { scale: 0.00392156862745098 }
+ data_param {
+    source: "/home/zhangyu/data/vggnet/leveldb/test_img_leveldb"
+    batch_size: 5
+    backend: LEVELDB
+  }
+  top: "mask"
+}
 layer {
   bottom: "img"
   top: "conv1_1"
@@ -505,12 +532,12 @@ layer {
     num_output: 3136
     weight_filler {
       type: "uniform"
-	  min: -9.7636e-05
-	  max: 9.7636e-05
+    min: -9.7636e-05
+    max: 9.7636e-05
     }
     bias_filler {
       type: "constant"
-	  value: 0
+    value: 0
     }
   }
 }
@@ -522,10 +549,10 @@ layer {
   reshape_param {
     shape {
     dim: 0
-	  dim: 1
-	  dim: 56
-	  dim: 56
-	}
+    dim: 1
+    dim: 56
+    dim: 56
+  }
   }
 }
 layer {
