@@ -1,0 +1,9 @@
+function [sm]=predict_sm(net,image,x,y)
+   % im=prepare_img(image);
+    im=image;
+    output=net.forward({im});
+    tmp = output{1};
+    sm = imresize(tmp',[x,y],'bilinear');
+%     fea=output{1};
+%     fea=permute(fea,[2 1 3]);
+%     fea=imresize(fea,[x,y],'bilinear');

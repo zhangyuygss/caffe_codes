@@ -10,6 +10,6 @@ max_iter: 300000
 momentum: 0.9
 weight_decay: 0.0005
 snapshot: 5000
-snapshot_prefix: "/home/zhangyu/data/vggnet/snap/Iter_"
+snapshot_prefix: "/home/zhangyu/data/vggnet/snap/VGG"
 solver_mode: GPU
-device_id: 0
+device_id: 1

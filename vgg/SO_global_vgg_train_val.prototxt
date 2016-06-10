@@ -10,7 +10,7 @@ layer {
  }
  data_param {
     source: "/home/zhangyu/data/vggnet/leveldb/train_img_leveldb"
-    batch_size: 64
+    batch_size: 32
     backend: LEVELDB
   }
   top: "img"
@@ -22,7 +22,7 @@ layer {
  transform_param { scale: 0.00392156862745098 }
  data_param {
     source: "/home/zhangyu/data/vggnet/leveldb/train_mask_leveldb"
-    batch_size: 64
+    batch_size: 32
     backend: LEVELDB
   }
   top: "mask"
@@ -49,7 +49,7 @@ layer {
   include { phase: TEST }
  transform_param { scale: 0.00392156862745098 }
  data_param {
-    source: "/home/zhangyu/data/vggnet/leveldb/test_img_leveldb"
+    source: "/home/zhangyu/data/vggnet/leveldb/test_mask_leveldb"
     batch_size: 5
     backend: LEVELDB
   }

@@ -9,7 +9,7 @@ mask_txt = 'vgg_mask_list.txt';
 fid = fopen(img_txt, 'w+');
 img_namelist = dir([imgpath '*.jpg']);
 for k = 1:length(img_namelist)
-	image_name = [img_namelist(k).name, '', '0',];
+	image_name = [img_namelist(k).name, ' ', '0',];
 	fprintf(fid, '%s\r\n', image_name);
 end
 fclose(fid);
