@@ -12,6 +12,21 @@ function [paras] = para_get(img,saliency)
 	end
 
 	% saliency compactness
+	pval = [0.25 0.5 0.75];
+	compact = zeros(1,length(pval));		
+	saltmp = saliency(:);
+	saltmp = sort(saltmp);
+	for i = 1:length(pval)
+		threshold = saltmp(round(pval(i)*rowsize*colsize));
+		binaried = saliency>threshold;
+		regions = regionprops(binaried,'basic');
+		maxregion_area = sort([regions.Area],'descend')(1);
+		maxregion_idx = find([regions.Area]==maxregion_area);
+		boundingbox = regions(maxregion_idx).BoundingBox;
+		salregion = saliency(floor(boundingbox(2)):floor(boundingbox(2))+boundingbox(4)-1,...
+			floor(boundingbox(1)):floor(boundingbox(1))+boundingbox(3)-1);
+		compact(i) = mean(salregion(:))/256;
+	end
 
 	% saliency value histogram
 	salvalue = zeros(1,20);
@@ -41,4 +56,7 @@ function [paras] = para_get(img,saliency)
 
 	% segmentation quality
 	
+
+
+	paras = [cover compact salvalue colour];
 end
