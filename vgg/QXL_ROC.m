@@ -1,4 +1,4 @@
-function [AUC] = QXL_ROC( image, hsegmap, NT )
+function [TPR, FPR, Precision, AUC, AP, F] = QXL_ROC( image, hsegmap, NT )
 %计算某一幅sm的ROC相关数据，但是需要Algorithm_ROC.m提供ground truth。
 %input parameter description: 
 %image：输入的sm
@@ -71,6 +71,5 @@ end
 
 %计算AUC（ROC曲线下的面积）
 AUC = -trapz([1,FPR,0], [1,TPR,0]);
-AUC = sum(AUC)/length(AUC);
 AP = -trapz([1,TPR,0], [0,Precision,1]);
 end
