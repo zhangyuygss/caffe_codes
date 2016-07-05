@@ -17,7 +17,7 @@
 % end
 % save('mrsa10k.mat');
 
-%prepare training data,80% of current saliency maps
+%prepare training data,65% of current saliency maps
 img_savepath = '/home/zhangyu/data/vggnet/auc_selected_data/images/';
 mask_savepath = '/home/zhangyu/data/vggnet/auc_selected_data/GT/';
 load('mrsa10k.mat');

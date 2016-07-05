@@ -4,7 +4,7 @@ caffe.reset_all();
 caffe.set_mode_gpu();
 gpu_id = 1;
 caffe.set_device(gpu_id);
-model_dir = '/home/zhangyu/data/vggnet/snap/select65/unsupervise/';
+model_dir = '/home/zhangyu/data/vggnet/snap/select65/';
 def_dir = '/home/zhangyu/codes/caffe_codes/vgg/';
 phase = 'test'; % run with phase test (so that dropout isn't applied)
 net_model = [def_dir 'SO_global_vgg_deploy.prototxt'];
