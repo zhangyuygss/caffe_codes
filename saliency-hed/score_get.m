@@ -75,6 +75,6 @@ AP = -trapz([1,TPR,0], [0,Precision,1]);
 
 ave_AUC = sum(AUC)/length(AUC);
 ave_AP = sum(AP)/length(AP);
-ave_F = sum(ave_F)/length(ave_F);
+ave_F = sum(F)/length(F);
 score = ave_AUC + ave_AP + ave_F; 
 end
