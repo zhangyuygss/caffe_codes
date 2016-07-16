@@ -10,6 +10,6 @@ max_iter: 100000
 momentum: 0.9
 weight_decay: 0.0005
 snapshot: 5000
-snapshot_prefix: "/home/zhangyu/data/DHS-data/snap/"
+snapshot_prefix: "/home/zhangyu/data/hed-sal/dhs/snap/usuperdhs"
 solver_mode: GPU
 device_id: 2

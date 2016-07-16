@@ -9,8 +9,8 @@ layer {
     mean_value: 123.68
  }
  data_param {
-    source: "/home/zhangyu/data/DHS-data/levelbd/train_img_levelbd"
-    batch_size: 10
+    source: "/home/zhangyu/data/hed-sal/leveldb/train_img_leveldb"
+    batch_size: 8
     backend: LEVELDB
   }
   top: "img"
@@ -21,8 +21,8 @@ layer {
   include { phase: TRAIN }
  transform_param { scale: 0.00392156862745098 }
  data_param {
-    source: "/home/zhangyu/data/DHS-data/levelbd/train_mask28_levelbd"
-    batch_size: 10
+    source: "/home/zhangyu/data/hed-sal/leveldb/train_mask28_leveldb"
+    batch_size: 8
     backend: LEVELDB
   }
   top: "mask28"
@@ -33,8 +33,8 @@ layer {
   include { phase: TRAIN }
  transform_param { scale: 0.00392156862745098 }
  data_param {
-    source: "/home/zhangyu/data/DHS-data/levelbd/train_mask56_levelbd"
-    batch_size: 10
+    source: "/home/zhangyu/data/hed-sal/leveldb/train_mask_leveldb"
+    batch_size: 8
     backend: LEVELDB
   }
   top: "mask56"
@@ -45,8 +45,8 @@ layer {
   include { phase: TRAIN }
  transform_param { scale: 0.00392156862745098 }
  data_param {
-    source: "/home/zhangyu/data/DHS-data/levelbd/train_mask112_levelbd"
-    batch_size: 10
+    source: "/home/zhangyu/data/hed-sal/leveldb/train_mask112_leveldb"
+    batch_size: 8
     backend: LEVELDB
   }
   top: "mask112"
@@ -57,8 +57,8 @@ layer {
   include { phase: TRAIN }
  transform_param { scale: 0.00392156862745098 }
  data_param {
-    source: "/home/zhangyu/data/DHS-data/levelbd/train_mask224_levelbd"
-    batch_size: 10
+    source: "/home/zhangyu/data/hed-sal/leveldb/train_mask224_leveldb"
+    batch_size: 8
     backend: LEVELDB
   }
   top: "mask224"
@@ -74,7 +74,7 @@ layer {
     mean_value: 123.68
  }
  data_param {
-    source: "/home/zhangyu/data/DHS-data/levelbd/test_img_levelbd"
+    source: "/home/zhangyu/data/DHS-data/leveldb/test_img_leveldb"
     batch_size: 2
     backend: LEVELDB
   }
@@ -86,7 +86,7 @@ layer {
   include { phase: TEST }
  transform_param { scale: 0.00392156862745098 }
  data_param {
-    source: "/home/zhangyu/data/DHS-data/levelbd/test_mask28_levelbd"
+    source: "/home/zhangyu/data/DHS-data/leveldb/test_mask28_leveldb"
     batch_size: 2
     backend: LEVELDB
   }
@@ -98,7 +98,7 @@ layer {
   include { phase: TEST }
  transform_param { scale: 0.00392156862745098 }
  data_param {
-    source: "/home/zhangyu/data/DHS-data/levelbd/test_mask56_levelbd"
+    source: "/home/zhangyu/data/DHS-data/leveldb/test_mask56_leveldb"
     batch_size: 2
     backend: LEVELDB
   }
@@ -110,7 +110,7 @@ layer {
   include { phase: TEST }
  transform_param { scale: 0.00392156862745098 }
  data_param {
-    source: "/home/zhangyu/data/DHS-data/levelbd/test_mask112_levelbd"
+    source: "/home/zhangyu/data/DHS-data/leveldb/test_mask112_leveldb"
     batch_size: 2
     backend: LEVELDB
   }
@@ -122,7 +122,7 @@ layer {
   include { phase: TEST }
  transform_param { scale: 0.00392156862745098 }
  data_param {
-    source: "/home/zhangyu/data/DHS-data/levelbd/test_mask224_levelbd"
+    source: "/home/zhangyu/data/DHS-data/leveldb/test_mask224_leveldb"
     batch_size: 2
     backend: LEVELDB
   }

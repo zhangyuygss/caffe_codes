@@ -6,10 +6,10 @@ lr_policy: "step"
 gamma: 0.5
 stepsize: 5000
 display: 250
-max_iter: 300000
+max_iter: 100000
 momentum: 0.9
 weight_decay: 0.0005
 snapshot: 5000
-snapshot_prefix: "/home/zhangyu/data/vggnet/snap/Iter_"
+snapshot_prefix: "/home/zhangyu/data/vggnet/snap/vgg"
 solver_mode: GPU
 device_id: 0

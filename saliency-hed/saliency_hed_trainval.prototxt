@@ -9,8 +9,8 @@ layer {
     mean_value: 123.68
  }
  data_param {
-    source: "/home/zhangyu/data/vggnet/leveldb/train_img_leveldb"
-    batch_size: 32
+    source: "/home/zhangyu/data/hed-sal/leveldb/train_img_leveldb"
+    batch_size: 8
     backend: LEVELDB
   }
   top: "img"
@@ -21,8 +21,8 @@ layer {
   include { phase: TRAIN }
  transform_param { scale: 0.00392156862745098 }
  data_param {
-    source: "/home/zhangyu/data/vggnet/leveldb/train_mask_leveldb"
-    batch_size: 32
+    source: "/home/zhangyu/data/hed-sal/leveldb/train_mask_leveldb"
+    batch_size: 8
     backend: LEVELDB
   }
   top: "mask"
@@ -126,7 +126,7 @@ layer { bottom: 'conv5_3' top: 'conv5_3' name: 'relu5_3' type: "ReLU" }
 layer { name: 'score-dsn1' type: "Convolution" bottom: 'conv1_2' top: 'score-dsn1-up'
   param { lr_mult: 0.01 decay_mult: 1 } param { lr_mult: 0.02 decay_mult: 0}
   convolution_param { engine: CAFFE num_output: 1 kernel_size: 1 } }
-layer { type: "Crop" name: 'crop' bottom: 'score-dsn1-up' bottom: 'img' top: 'upscore-dsn1' }
+##layer { type: "Crop" name: 'crop' bottom: 'score-dsn1-up' bottom: 'img' top: 'upscore-dsn1' }##
 
 ### DSN conv 2 ###
 layer { name: 'score-dsn2' type: "Convolution" bottom: 'conv2_2' top: 'score-dsn2'

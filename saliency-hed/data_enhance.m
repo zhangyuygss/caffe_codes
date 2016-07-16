@@ -1,7 +1,7 @@
 function prepare_im
 clear;
 cd /home/zhangyu/data/;
-database = {'bsd','MSRA10K'};
+database = {'MSRA10K'};
 imgsiz = 224;
 masksiz = 56;
 imgpath_save = 'hed-sal/img/';
@@ -13,8 +13,10 @@ pad=1;
 imgnum =0;
 
 for i = 1:length(database)
-	imgpath = strcat('database/',database{i},'/images/');
-	maskpath = strcat('database/',database{i},'/GT/');
+	% imgpath = strcat('database/',database{i},'/images/');
+	% maskpath = strcat('database/',database{i},'/GT/');
+    imgpath = '/home/zhangyu/data/hed-sal/selected-data/images/';
+    maskpath = '/home/zhangyu/data/hed-sal/selected-data/GT/';
 	imglist = dir(imgpath);
 	masklist = dir(maskpath);
 	for idx = 3:length(imglist)

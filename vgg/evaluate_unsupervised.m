@@ -1,18 +1,21 @@
 clear;
-save_path = '/home/zhangyu/data/vggnet/unsupervised_performance';
+save_path = '/home/zhangyu/data/vggnet/unsupervised1_performance';
 datadir = '/home/zhangyu/data/database/';
-datasets={'DUT-O','bsd','ECSSD','MSRA10K'};
+datasets={'DUT-O','bsd','ECSSD'};%'MSRA10K'
 salMapRootDir='/home/zhangyu/data/vggnet/unsupervised/';
-allModel={'SO_global_iter_5000','SO_global_iter_10000','SO_global_iter_15000',...
-        'SO_global_iter_20000','SO_global_iter_25000','SO_global_iter_30000',...
-        'SO_global_iter_35000','SO_global_iter_40000','SO_global_iter_43433'};
+allModel={'vgg_iter_5000','vgg_iter_10000','vgg_iter_15000',...
+        'vgg_iter_20000','vgg_iter_25000','vgg_iter_30000',...
+        'vgg_iter_35000','vgg_iter_40000','vgg_iter_45000',...
+        'vgg_iter_50000','vgg_iter_55000','vgg_iter_60000',...
+        'vgg_iter_65000','vgg_iter_70000','vgg_iter_75000',...
+        'vgg_iter_80000'};
 ext='.jpg';
 perfWrite={'AUC','AP','Pre1','TPR1','Fm'};
 for datasetIdx=1:length(datasets)
     results=[];
     datasetName=datasets{datasetIdx};
     disp(datasetName);
-    mkdir('/home/zhangyu/data/vggnet/unsupervised_performance/',datasetName);
+    mkdir('/home/zhangyu/data/vggnet/unsupervised1_performance/',datasetName);
     maskPath=[datadir datasets{datasetIdx} '/GT/'];
     for modelIdx=1:length(allModel)
         modelName=allModel{modelIdx};

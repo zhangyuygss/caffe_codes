@@ -1,6 +1,6 @@
 net: "saliency_hed_trainval.prototxt"
-test_iter: 0
-test_interval: 1000000
+test_iter: 100
+test_interval: 5000
 # lr for fine-tuning should be lower than when starting from scratch
 #debug_info: true
 base_lr: 5e-7
@@ -14,8 +14,8 @@ max_iter: 100000
 momentum: 0.9
 weight_decay: 0.0002
 snapshot: 5000
-snapshot_prefix: "/home/zhangyu/data/vggnet/snap/hed/hed"
+snapshot_prefix: "/home/zhangyu/data/hed-sal/snap/hed"
 # uncomment the following to default to CPU mode solving
 solver_mode: GPU 
-device_id: 0
+device_id: 1
 

@@ -17,13 +17,13 @@ for i = 1:length(sallist)
 end
 save('mrsa10k.mat');
 
-%prepare training data,30% of current saliency maps
+%prepare training data,60% of current saliency maps
 img_savepath = '/home/zhangyu/data/hed-sal/selected-data/images/';
 mask_savepath = '/home/zhangyu/data/hed-sal/selected-data/GT/';
 maxIterations=3;
 load('mrsa10k.mat');
 sm_sorted = sort(gtresults,'descend');
-for i = 50:round(length(sallist)*0.3)
+for i = 50:round(length(sallist)*0.6)
     if ~mod(i,100)
         disp([i]);
     end
