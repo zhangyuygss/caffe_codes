@@ -7,7 +7,7 @@ input_dim: 224
 
 layer { bottom: 'img' top: 'conv1_1' name: 'conv1_1' type: "Convolution"
   param { lr_mult: 1 decay_mult: 1 } param { lr_mult: 2 decay_mult: 0}
-  convolution_param { engine: CAFFE num_output: 64 pad: 1 kernel_size: 3 } }
+  convolution_param { engine: CAFFE num_output: 64 pad: 8 kernel_size: 3 } }
 layer { bottom: 'conv1_1' top: 'conv1_1' name: 'relu1_1' type: "ReLU" }
 layer { bottom: 'conv1_1' top: 'conv1_2' name: 'conv1_2' type: "Convolution"
   param { lr_mult: 1 decay_mult: 1 } param { lr_mult: 2 decay_mult: 0}
@@ -15,6 +15,7 @@ layer { bottom: 'conv1_1' top: 'conv1_2' name: 'conv1_2' type: "Convolution"
 layer { bottom: 'conv1_2' top: 'conv1_2' name: 'relu1_2' type: "ReLU" }
 layer { name: 'pool1' bottom: 'conv1_2' top: 'pool1' type: "Pooling"
   pooling_param { pool: MAX kernel_size: 2 stride: 2 } }
+
 
 layer { name: 'conv2_1' bottom: 'pool1' top: 'conv2_1' type: "Convolution"
   param { lr_mult: 1 decay_mult: 1 } param { lr_mult: 2 decay_mult: 0}
@@ -26,6 +27,7 @@ layer { bottom: 'conv2_1' top: 'conv2_2' name: 'conv2_2' type: "Convolution"
 layer { bottom: 'conv2_2' top: 'conv2_2' name: 'relu2_2' type: "ReLU" }
 layer { bottom: 'conv2_2' top: 'pool2' name: 'pool2' type: "Pooling"
   pooling_param { pool: MAX kernel_size: 2 stride: 2 } }
+
 
 layer { bottom: 'pool2' top: 'conv3_1' name: 'conv3_1' type: "Convolution"
   param { lr_mult: 1 decay_mult: 1 } param { lr_mult: 2 decay_mult: 0}
@@ -42,6 +44,7 @@ layer { bottom: 'conv3_3' top: 'conv3_3' name: 'relu3_3' type: "ReLU" }
 layer { bottom: 'conv3_3' top: 'pool3' name: 'pool3' type: "Pooling"
   pooling_param { pool: MAX kernel_size: 2 stride: 2 } }
 
+
 layer { bottom: 'pool3' top: 'conv4_1' name: 'conv4_1' type: "Convolution"
   param { lr_mult: 1 decay_mult: 1 } param { lr_mult: 2 decay_mult: 0}
   convolution_param { engine: CAFFE num_output: 512 pad: 1 kernel_size: 3 } }
@@ -57,6 +60,7 @@ layer { bottom: 'conv4_3' top: 'conv4_3' name: 'relu4_3' type: "ReLU" }
 layer { bottom: 'conv4_3' top: 'pool4' name: 'pool4' type: "Pooling"
   pooling_param { pool: MAX kernel_size: 2 stride: 2 } }
 
+
 layer { bottom: 'pool4' top: 'conv5_1' name: 'conv5_1' type: "Convolution"
   param { lr_mult: 100 decay_mult: 1 } param { lr_mult: 200 decay_mult: 0}
   convolution_param { engine: CAFFE num_output: 512 pad: 1 kernel_size: 3 } }
@@ -69,6 +73,7 @@ layer { bottom: 'conv5_2' top: 'conv5_3' name: 'conv5_3' type: "Convolution"
   param { lr_mult: 100 decay_mult: 1 } param { lr_mult: 200 decay_mult: 0}
   convolution_param { engine: CAFFE num_output: 512 pad: 1 kernel_size: 3 } }
 layer { bottom: 'conv5_3' top: 'conv5_3' name: 'relu5_3' type: "ReLU" }
+
 
 ## DSN conv 1 ###
 layer { name: 'score-dsn1' type: "Convolution" bottom: 'conv1_2' top: 'score-dsn1-up'
@@ -120,37 +125,8 @@ layer { name: 'new-score-weighting' type: "Convolution" bottom: 'concat-upscore'
   param { lr_mult: 0.001 decay_mult: 1 } param { lr_mult: 0.002 decay_mult: 0}
   convolution_param { engine: CAFFE num_output: 1 kernel_size: 1 weight_filler {type: "constant" value: 0.2} } }
 layer {
-  bottom: "upscore-fuse"
-  top: "global_fc6"
-  name: "global_fc6"
-  type: "InnerProduct"
-  param {
-    lr_mult: 10
-    decay_mult: 1
-  }
-  param {
-    lr_mult: 20
-    decay_mult: 0
-  }
-  inner_product_param {
-    num_output: 3136
-    weight_filler {
-      type: "uniform"
-    min: -9.7636e-05
-    max: 9.7636e-05
-    }
-    bias_filler {
-      type: "constant"
-    value: 0
-    }
-  }
-}
-layer { name: "global_predict"  type: "Reshape"  bottom: "global_fc6"
-  top: "global_predict"  reshape_param { shape { dim: 0  dim: 1
-  dim: 56  dim: 56 } } }
-layer {
   name: "predict"
   type: "Sigmoid"
-  bottom: "global_fc6"
+  bottom: "upscore-fuse"
   top: "predict"
 }

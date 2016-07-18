@@ -59,7 +59,7 @@ layer {
 
 layer { bottom: 'img' top: 'conv1_1' name: 'conv1_1' type: "Convolution"
   param { lr_mult: 1 decay_mult: 1 } param { lr_mult: 2 decay_mult: 0}
-  convolution_param { engine: CAFFE num_output: 64 pad: 1 kernel_size: 3 } }
+  convolution_param { engine: CAFFE num_output: 64 pad: 8 kernel_size: 3 } }
 layer { bottom: 'conv1_1' top: 'conv1_1' name: 'relu1_1' type: "ReLU" }
 layer { bottom: 'conv1_1' top: 'conv1_2' name: 'conv1_2' type: "Convolution"
   param { lr_mult: 1 decay_mult: 1 } param { lr_mult: 2 decay_mult: 0}
@@ -171,34 +171,5 @@ layer { name: "concat" bottom: "upscore-dsn1"  bottom: "upscore-dsn2" bottom: "u
 layer { name: 'new-score-weighting' type: "Convolution" bottom: 'concat-upscore' top: 'upscore-fuse'
   param { lr_mult: 0.001 decay_mult: 1 } param { lr_mult: 0.002 decay_mult: 0}
   convolution_param { engine: CAFFE num_output: 1 kernel_size: 1 weight_filler {type: "constant" value: 0.2} } }
-layer {
-  bottom: "upscore-fuse"
-  top: "global_fc6"
-  name: "global_fc6"
-  type: "InnerProduct"
-  param {
-    lr_mult: 10
-    decay_mult: 1
-  }
-  param {
-    lr_mult: 20
-    decay_mult: 0
-  }
-  inner_product_param {
-    num_output: 3136
-    weight_filler {
-      type: "uniform"
-    min: -9.7636e-05
-    max: 9.7636e-05
-    }
-    bias_filler {
-      type: "constant"
-    value: 0
-    }
-  }
-}
-layer { name: "global_predict"  type: "Reshape"  bottom: "global_fc6"
-  top: "global_predict"  reshape_param { shape { dim: 0  dim: 1
-  dim: 56  dim: 56 } } }
-layer { type: "SigmoidCrossEntropyLoss" bottom: "global_predict" bottom: "mask" top:"fuse_loss"  loss_weight: 1}
+layer { type: "SigmoidCrossEntropyLoss" bottom: "upscore-fuse" bottom: "mask" top:"fuse_loss"  loss_weight: 1}
 

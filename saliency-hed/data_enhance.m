@@ -3,7 +3,7 @@ clear;
 cd /home/zhangyu/data/;
 database = {'MSRA10K'};
 imgsiz = 224;
-masksiz = 56;
+masksiz = 224;
 imgpath_save = 'hed-sal/img/';
 maskpath_save = 'hed-sal/GT/';
 % methods={'hflip','crop','rotate'};%crop with zoom-out
@@ -16,24 +16,24 @@ for i = 1:length(database)
 	% imgpath = strcat('database/',database{i},'/images/');
 	% maskpath = strcat('database/',database{i},'/GT/');
     imgpath = '/home/zhangyu/data/hed-sal/selected-data/images/';
-    maskpath = '/home/zhangyu/data/hed-sal/selected-data/GT/';
+    maskpath = '/home/zhangyu/data/hed-sal/selected-data/mask224/';
 	imglist = dir(imgpath);
 	masklist = dir(maskpath);
 	for idx = 3:length(imglist)
 		img = imread(strcat(imgpath,imglist(idx).name));
 		mask = imread(strcat(maskpath,masklist(idx).name));
 		img224 = imresize(img,[imgsiz,imgsiz]);
-		mask56 = imresize(mask,[masksiz,masksiz]);
+		mask224 = imresize(mask,[masksiz,masksiz]);
 		imwrite(img224,strcat(imgpath_save,imglist(idx).name(1:end-4),'224.jpg'));
-		imwrite(mask56,strcat(maskpath_save,masklist(idx).name(1:end-4),'224.jpg'));
+		imwrite(mask224,strcat(maskpath_save,masklist(idx).name(1:end-4),'224.jpg'));
 		hflip_ornot = paras{1}{1};
 		for h = 1:length(hflip_ornot)
 			if hflip_ornot(h)==1
 				imgstep1 = img224;
-				maskstep1 = mask56;
+				maskstep1 = mask224;
 			elseif hflip_ornot(h)==-1
 				imgstep1 = img224(:,end:-1:1,:);
-				maskstep1 = mask56(:,end:-1:1,:);
+				maskstep1 = mask224(:,end:-1:1,:);
 			end
 			crop_method = paras{2}{1};
 			for c = 1:length(crop_method)
