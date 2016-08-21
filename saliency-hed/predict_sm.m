@@ -1,7 +1,7 @@
-function [sm]=predict_sm(net,image,x,y)
+function [sm]=predict_sm(net,image,mask,x,y)
    % im=prepare_img(image);
     im=image;
-    output=net.forward({im});
+    output=net.forward({im,mask});
     tmp = output{1};
     sm = imresize(tmp',[x,y],'bilinear');
 %     fea=output{1};

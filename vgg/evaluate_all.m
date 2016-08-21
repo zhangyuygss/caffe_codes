@@ -1,20 +1,18 @@
 clear;
-cd /home/zhangyu/data/vggnet/performance;
+save_path = '/home/zhangyu/data/vggnet/unsupervised_performance';
 datadir = '/home/zhangyu/data/database/';
-datasets={'ECSSD','MSRA10K','DUT-O'};
-salMapRootDir='/home/zhangyu/data/vggnet/saliencymap/';
-allModel={'Iter__iter_5000','Iter__iter_10000','Iter__iter_15000','Iter__iter_20000',...
-		'Iter__iter_25000','Iter__iter_30000','Iter__iter_35000','Iter__iter_40000',...
-		'Iter__iter_45000','Iter__iter_50000','Iter__iter_55000','Iter__iter_60000',...
-		'Iter__iter_65000','Iter__iter_70000','Iter__iter_75000','Iter__iter_80000',...
-		'Iter__iter_85000','Iter__iter_90000','Iter__iter_95000','Iter__iter_100000'};
+datasets={'MSRA10K'};%'DUT-O','bsd','ECSSD'
+salMapRootDir='/home/zhangyu/data/vggnet/unsupervised/';
+allModel={'SO_global_iter_5000','SO_global_iter_10000','SO_global_iter_15000','SO_global_iter_20000',...
+        'SO_global_iter_25000','SO_global_iter_30000','SO_global_iter_35000','SO_global_iter_40000',...
+        'SO_global_iter_43433'};
 ext='.jpg';
 perfWrite={'AUC','AP','Pre1','TPR1','Fm'};
 for datasetIdx=1:length(datasets)
     results=[];
     datasetName=datasets{datasetIdx};
     disp(datasetName);
-    mkdir(datasetName);
+    mkdir('/home/zhangyu/data/vggnet/unsupervised_performance/',datasetName);
     maskPath=[datadir datasets{datasetIdx} '/GT/'];
     for modelIdx=1:length(allModel)
         modelName=allModel{modelIdx};
@@ -29,10 +27,10 @@ for datasetIdx=1:length(datasets)
         end
         
     end
-    save([datasetName '/' datasetName  '_results.mat'],'results');
+    save([save_path '/' datasetName '/' datasetName  '_results.mat'],'results');
 
  %   plotFigure(datasetName,allModel,results);
-    fid=fopen([datasetName '/' datasetName '_results.txt'],'w+');
+    fid=fopen([save_path '/' datasetName '/' datasetName '_results.txt'],'w+');
     for i= 1:length(perfWrite)
         for modelIdx=1:length(allModel)
             if ~isempty(results(modelIdx).Performance)

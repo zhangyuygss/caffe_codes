@@ -10,7 +10,7 @@ layer {
  }
  data_param {
     source: "/home/zhangyu/data/hed-sal/leveldb/train_img_leveldb"
-    batch_size: 8
+    batch_size: 32
     backend: LEVELDB
   }
   top: "img"
@@ -22,7 +22,7 @@ layer {
  transform_param { scale: 0.00392156862745098 }
  data_param {
     source: "/home/zhangyu/data/hed-sal/leveldb/train_mask_leveldb"
-    batch_size: 8
+    batch_size: 32
     backend: LEVELDB
   }
   top: "mask"
@@ -37,7 +37,7 @@ layer {
     mean_value: 123.68
  }
  data_param {
-    source: "/home/zhangyu/data/vggnet/leveldb/test_img_leveldb"
+    source: "/home/zhangyu/data/hed-sal/leveldb/test_img_leveldb"
     batch_size: 5
     backend: LEVELDB
   }
@@ -49,7 +49,7 @@ layer {
   include { phase: TEST }
  transform_param { scale: 0.00392156862745098 }
  data_param {
-    source: "/home/zhangyu/data/vggnet/leveldb/test_mask_leveldb"
+    source: "/home/zhangyu/data/hed-sal/leveldb/test_mask224_leveldb"
     batch_size: 5
     backend: LEVELDB
   }
@@ -126,7 +126,7 @@ layer { bottom: 'conv5_3' top: 'conv5_3' name: 'relu5_3' type: "ReLU" }
 layer { name: 'score-dsn1' type: "Convolution" bottom: 'conv1_2' top: 'score-dsn1-up'
   param { lr_mult: 0.01 decay_mult: 1 } param { lr_mult: 0.02 decay_mult: 0}
   convolution_param { engine: CAFFE num_output: 1 kernel_size: 1 } }
-##layer { type: "Crop" name: 'crop' bottom: 'score-dsn1-up' bottom: 'img' top: 'upscore-dsn1' }##
+layer { type: "Crop" name: 'crop' bottom: 'score-dsn1-up' bottom: 'mask' top: 'upscore-dsn1' }
 
 ### DSN conv 2 ###
 layer { name: 'score-dsn2' type: "Convolution" bottom: 'conv2_2' top: 'score-dsn2'
@@ -135,7 +135,7 @@ layer { name: 'score-dsn2' type: "Convolution" bottom: 'conv2_2' top: 'score-dsn
 layer { type: "Deconvolution" name: 'upsample_2' bottom: 'score-dsn2' top: 'score-dsn2-up'
   param { lr_mult: 0 decay_mult: 1 } param { lr_mult: 0 decay_mult: 0}
   convolution_param { kernel_size: 4 stride: 2 num_output: 1 } }
-layer { type: "Crop" name: 'crop' bottom: 'score-dsn2-up' bottom: 'img' top: 'upscore-dsn2' }
+layer { type: "Crop" name: 'crop' bottom: 'score-dsn2-up' bottom: 'mask' top: 'upscore-dsn2' }
 
 ### DSN conv 3 ###
 layer { name: 'score-dsn3' type: "Convolution" bottom: 'conv3_3' top: 'score-dsn3'
@@ -144,7 +144,7 @@ layer { name: 'score-dsn3' type: "Convolution" bottom: 'conv3_3' top: 'score-dsn
 layer { type: "Deconvolution" name: 'upsample_4' bottom: 'score-dsn3' top: 'score-dsn3-up'
   param { lr_mult: 0 decay_mult: 1 } param { lr_mult: 0 decay_mult: 0}
   convolution_param { kernel_size: 8 stride: 4 num_output: 1 } }
-layer { type: "Crop" name: 'crop' bottom: 'score-dsn3-up' bottom: 'img' top: 'upscore-dsn3' }
+layer { type: "Crop" name: 'crop' bottom: 'score-dsn3-up' bottom: 'mask' top: 'upscore-dsn3' }
 
 ###DSN conv 4###
 layer { name: 'score-dsn4' type: "Convolution" bottom: 'conv4_3' top: 'score-dsn4'
@@ -153,7 +153,7 @@ layer { name: 'score-dsn4' type: "Convolution" bottom: 'conv4_3' top: 'score-dsn
 layer { type: "Deconvolution" name: 'upsample_8' bottom: 'score-dsn4' top: 'score-dsn4-up'
   param { lr_mult: 0 decay_mult: 1 } param { lr_mult: 0 decay_mult: 0}
   convolution_param { kernel_size: 16 stride: 8 num_output: 1 } }
-layer { type: "Crop" name: 'crop' bottom: 'score-dsn4-up' bottom: 'img' top: 'upscore-dsn4' }
+layer { type: "Crop" name: 'crop' bottom: 'score-dsn4-up' bottom: 'mask' top: 'upscore-dsn4' }
 
 ###DSN conv 5###
 layer { name: 'score-dsn5' type: "Convolution" bottom: 'conv5_3' top: 'score-dsn5'
@@ -162,7 +162,7 @@ layer { name: 'score-dsn5' type: "Convolution" bottom: 'conv5_3' top: 'score-dsn
 layer { type: "Deconvolution" name: 'upsample_16' bottom: 'score-dsn5' top: 'score-dsn5-up'
   param { lr_mult: 0 decay_mult: 1 } param { lr_mult: 0 decay_mult: 0}
   convolution_param { kernel_size: 32 stride: 16 num_output: 1 } }
-layer { type: "Crop" name: 'crop' bottom: 'score-dsn5-up' bottom: 'img' top: 'upscore-dsn5' }
+layer { type: "Crop" name: 'crop' bottom: 'score-dsn5-up' bottom: 'mask' top: 'upscore-dsn5' }
 
 ### Concat and multiscale weight layer ###
 layer { name: "concat" bottom: "upscore-dsn1"  bottom: "upscore-dsn2" bottom: "upscore-dsn3" 
@@ -172,4 +172,3 @@ layer { name: 'new-score-weighting' type: "Convolution" bottom: 'concat-upscore'
   param { lr_mult: 0.001 decay_mult: 1 } param { lr_mult: 0.002 decay_mult: 0}
   convolution_param { engine: CAFFE num_output: 1 kernel_size: 1 weight_filler {type: "constant" value: 0.2} } }
 layer { type: "SigmoidCrossEntropyLoss" bottom: "upscore-fuse" bottom: "mask" top:"fuse_loss"  loss_weight: 1}
-

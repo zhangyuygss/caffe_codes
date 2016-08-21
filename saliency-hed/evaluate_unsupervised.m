@@ -1,21 +1,18 @@
 clear;
-save_path = '/home/zhangyu/data/hed-sal/dhs/performance';
+save_path = '/home/zhangyu/data/hed-sal/performance';
 datadir = '/home/zhangyu/data/database/';
-datasets={'MSRA10K'};%'DUT-O','bsd','ECSSD'
-salMapRootDir='/home/zhangyu/data/hed-sal/dhs/';
-allModel={'usuperdhs_iter_5000','usuperdhs_iter_10000','usuperdhs_iter_15000',...
-          'usuperdhs_iter_20000','usuperdhs_iter_25000','usuperdhs_iter_30000',...
-          'usuperdhs_iter_35000','usuperdhs_iter_40000','usuperdhs_iter_45000',...
-          'usuperdhs_iter_50000','usuperdhs_iter_55000','usuperdhs_iter_60000',...
-          'usuperdhs_iter_65000','usuperdhs_iter_70000','usuperdhs_iter_75000',...
-          'usuperdhs_iter_80000','usuperdhs_iter_85000','usuperdhs_iter_90000','usuperdhs_iter_95000'};
-ext='.jpg';
+datasets={'DUT-O'};%,'bsd','ECSSD','MSRA10K'
+salMapRootDir='/home/zhangyu/data/hed-sal/saliency-map/';
+allModel={'hed_iter_5000','hed_iter_10000','hed_iter_15000','hed_iter_20000',...
+          'hed_iter_25000','hed_iter_30000','hed_iter_35000','hed_iter_40000',...
+          'hed_iter_45000','hed_iter_50000'};
+          ext='.jpg';
 perfWrite={'AUC','AP','Pre1','TPR1','Fm'};
 for datasetIdx=1:length(datasets)
     results=[];
     datasetName=datasets{datasetIdx};
     disp(datasetName);
-    mkdir('/home/zhangyu/data/hed-sal/dhs/performance/',datasetName);
+    mkdir('/home/zhangyu/data/hed-sal/performance/',datasetName);
     maskPath=[datadir datasets{datasetIdx} '/GT/'];
     for modelIdx=1:length(allModel)
         modelName=allModel{modelIdx};
